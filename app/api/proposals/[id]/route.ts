@@ -61,7 +61,7 @@ async function writeProposals(proposals: Proposal[]) {
 // Teklif getir
 export async function GET(request: Request, { params }: { params: { id: string } }) {
   try {
-    const { id } = await params;
+    const { id } = params;
     const proposals = await readProposals()
     const proposal = proposals.find((p) => p.id === id)
     
@@ -85,7 +85,7 @@ export async function GET(request: Request, { params }: { params: { id: string }
 // Teklif güncelle
 export async function PUT(request: Request, { params }: { params: { id: string } }) {
   try {
-    const { id } = await params;
+    const { id } = params;
     const proposal = await request.json()
 
     if (!proposal) {
@@ -130,7 +130,7 @@ export async function PUT(request: Request, { params }: { params: { id: string }
 // Teklif sil
 export async function DELETE(request: Request, { params }: { params: { id: string } }) {
   try {
-    const { id } = await params;
+    const { id } = params;
     const proposals = await readProposals()
     const proposalIndex = proposals.findIndex(p => p.id === id)
 

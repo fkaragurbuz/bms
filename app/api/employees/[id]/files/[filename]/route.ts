@@ -19,8 +19,8 @@ export async function GET(
   request: Request,
   { params }: { params: { id: string; filename: string } }
 ) {
-  const id = await params.id;
-  const filename = decodeURIComponent(await params.filename);
+  const { id, filename: encodedFilename } = params;
+  const filename = decodeURIComponent(encodedFilename);
   
   try {
     const employeeDir = await ensureEmployeeDir(id);
@@ -75,8 +75,8 @@ export async function DELETE(
   request: Request,
   { params }: { params: { id: string; filename: string } }
 ) {
-  const id = await params.id;
-  const filename = decodeURIComponent(await params.filename);
+  const { id, filename: encodedFilename } = params;
+  const filename = decodeURIComponent(encodedFilename);
   
   try {
     const employeeDir = await ensureEmployeeDir(id);

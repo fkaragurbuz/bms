@@ -37,7 +37,7 @@ async function writeEmployees(data: Employee[]) {
 // Çalışan getir
 export async function GET(request: Request, { params }: { params: { id: string } }) {
   try {
-    const { id } = await params
+    const { id } = params;
     const employees = await readEmployees()
     const employee = employees.find((n) => n.id === id)
     
@@ -133,7 +133,7 @@ export async function DELETE(
   { params }: { params: { id: string } }
 ) {
   try {
-    const { id } = await params;
+    const { id } = params;
     const employees = await readEmployees();
     const employeeIndex = employees.findIndex((n) => n.id === id);
 

@@ -31,7 +31,7 @@ async function writeNotes(data: Note[]) {
 // Not getir
 export async function GET(request: Request, { params }: { params: { id: string } }) {
   try {
-    const { id } = await params;
+    const { id } = params;
     const notes = await readNotes();
     const note = notes.find((n) => n.id === id);
     
@@ -55,7 +55,7 @@ export async function GET(request: Request, { params }: { params: { id: string }
 // Not güncelle
 export async function PUT(request: Request, { params }: { params: { id: string } }) {
   try {
-    const { id } = await params;
+    const { id } = params;
     const formData = await request.formData();
     const customerName = formData.get('customerName') as string;
     const subject = formData.get('subject') as string;

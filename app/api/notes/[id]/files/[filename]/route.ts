@@ -34,7 +34,7 @@ export async function DELETE(
   { params }: { params: { id: string; filename: string } }
 ) {
   try {
-    const { id, filename } = await params;
+    const { id, filename } = params;
     
     // Not dosyasını güncelle
     const notes = await readNotes();
@@ -79,7 +79,7 @@ export async function GET(
   { params }: { params: { id: string; filename: string } }
 ) {
   try {
-    const { id, filename } = await params;
+    const { id, filename } = params;
     const filePath = path.join(FILES_DIR, id, filename);
 
     try {

@@ -20,7 +20,7 @@ export async function POST(
   { params }: { params: { id: string } }
 ) {
   try {
-    const id = await params.id;
+    const { id } = params;
     const employeeDir = await ensureEmployeeDir(id);
     const formData = await request.formData();
     const files = formData.getAll('files');
