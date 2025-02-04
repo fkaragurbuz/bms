@@ -8,8 +8,9 @@ export async function GET(
   request: Request,
   { params }: { params: { id: string; filename: string } }
 ) {
+  const { filename } = params;
+  
   try {
-    const { filename } = await params;
     const filePath = path.join(UPLOAD_DIR, filename);
     console.log('Trying to read file:', filePath);
 
@@ -23,15 +24,15 @@ export async function GET(
         status: 200,
         headers,
       });
-    } catch (error) {
-      console.error('File not found:', filePath);
+    } catch (err) {
+      console.error(`Dosya bulunamadı (${filePath}):`, err);
       return NextResponse.json(
         { error: 'Dosya bulunamadı' },
         { status: 404 }
       );
     }
-  } catch (error) {
-    console.error('Dosya indirme hatası:', error);
+  } catch (err) {
+    console.error(`Dosya indirme hatası (${filename}):`, err);
     return NextResponse.json(
       { error: 'Dosya indirilemedi' },
       { status: 500 }
@@ -43,8 +44,9 @@ export async function DELETE(
   request: Request,
   { params }: { params: { id: string; filename: string } }
 ) {
+  const { filename } = params;
+  
   try {
-    const { filename } = await params;
     const filePath = path.join(UPLOAD_DIR, filename);
     console.log('Trying to delete file:', filePath);
 
@@ -52,15 +54,15 @@ export async function DELETE(
       await fs.unlink(filePath);
       console.log('File deleted successfully:', filePath);
       return NextResponse.json({ success: true });
-    } catch (error) {
-      console.error('File not found:', filePath);
+    } catch (err) {
+      console.error(`Dosya bulunamadı (${filePath}):`, err);
       return NextResponse.json(
         { error: 'Dosya bulunamadı' },
         { status: 404 }
       );
     }
-  } catch (error) {
-    console.error('Dosya silme hatası:', error);
+  } catch (err) {
+    console.error(`Dosya silme hatası (${filename}):`, err);
     return NextResponse.json(
       { error: 'Dosya silinemedi' },
       { status: 500 }
