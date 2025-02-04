@@ -8,17 +8,20 @@ export async function GET(
   request: Request,
   { params }: { params: { id: string; filename: string } }
 ) {
-  const { filename } = params;
+  const filename = decodeURIComponent(params.filename);
   
   try {
     const filePath = path.join(UPLOAD_DIR, filename);
-    console.log('Trying to read file:', filePath);
+    console.log('Dosya okunuyor:', filePath);
 
     try {
       const fileBuffer = await fs.readFile(filePath);
       const headers = new Headers();
       headers.set('Content-Type', 'application/octet-stream');
-      headers.set('Content-Disposition', `attachment; filename="${filename}"`);
+      headers.set(
+        'Content-Disposition', 
+        `attachment; filename*=UTF-8''${encodeURIComponent(filename)}`
+      );
 
       return new NextResponse(fileBuffer, {
         status: 200,
@@ -44,15 +47,15 @@ export async function DELETE(
   request: Request,
   { params }: { params: { id: string; filename: string } }
 ) {
-  const { filename } = params;
+  const filename = decodeURIComponent(params.filename);
   
   try {
     const filePath = path.join(UPLOAD_DIR, filename);
-    console.log('Trying to delete file:', filePath);
+    console.log('Dosya siliniyor:', filePath);
 
     try {
       await fs.unlink(filePath);
-      console.log('File deleted successfully:', filePath);
+      console.log('Dosya başarıyla silindi:', filePath);
       return NextResponse.json({ success: true });
     } catch (err) {
       console.error(`Dosya bulunamadı (${filePath}):`, err);
