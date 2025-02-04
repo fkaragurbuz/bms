@@ -1,0 +1,5225 @@
+[
+  {
+    "customerName": "ÜLKER",
+    "projectName": "CEO İletişimi",
+    "date": "2025-01-09",
+    "topics": [
+      {
+        "id": "1738664695528",
+        "name": "CEO İletişimi",
+        "categories": [
+          {
+            "id": "1738664704032",
+            "name": "EKİP & EKİPMAN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738664719161",
+                "name": "Prodüktör",
+                "unit": "adet",
+                "price": 10000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 10000,
+                "isCustom": true
+              },
+              {
+                "id": "1738664738568",
+                "name": "Kamera & Kameraman",
+                "unit": "adet",
+                "price": 9000,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 18000,
+                "isCustom": true
+              },
+              {
+                "id": "1738664831335",
+                "name": "Işık Ekipman",
+                "unit": "adet",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000,
+                "isCustom": true
+              },
+              {
+                "id": "1738664844769",
+                "name": "Ses Ekipman",
+                "unit": "adet",
+                "price": 7000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 7000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738664854168",
+            "name": "POST PRODÜKSİYON",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738664867952",
+                "name": "Kurgu",
+                "unit": "adet",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000,
+                "isCustom": true
+              },
+              {
+                "id": "1738664878652",
+                "name": "Altyazı",
+                "unit": "adet",
+                "price": 6000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 6000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738664885602",
+            "name": "PRODÜKSİYON HARCAMA",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738664904485",
+                "name": "İaşe",
+                "unit": "adet",
+                "price": 1000,
+                "days": 1,
+                "quantity": 4,
+                "totalPrice": 4000,
+                "isCustom": true
+              },
+              {
+                "id": "1738664916617",
+                "name": "Ekip Ulaşım",
+                "unit": "adet",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 78500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738664953170",
+    "createdAt": "2025-02-04T10:29:13.170Z",
+    "updatedAt": "2025-02-04T10:30:12.920Z",
+    "discount": null,
+    "agencyCommission": null
+  },
+  {
+    "customerName": "SAMSUNG",
+    "projectName": "NDA Event Video Çekimi (15 Ocak)",
+    "date": "2025-01-10",
+    "topics": [
+      {
+        "id": "1738665235981",
+        "name": "NDA Event Video Çekimi (15 Ocak)",
+        "categories": [
+          {
+            "id": "1738665244032",
+            "name": "EKİP & EKİPMAN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738665253881",
+                "name": "Prodüktör",
+                "unit": "adet",
+                "price": 20000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 20000,
+                "isCustom": true
+              },
+              {
+                "id": "1738665267081",
+                "name": "Kamera & Kameraman",
+                "unit": "adet",
+                "price": 18000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 18000,
+                "isCustom": true
+              },
+              {
+                "id": "1738665280481",
+                "name": "Işık Ekip & Ekipman",
+                "unit": "adet",
+                "price": 22000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 22000,
+                "isCustom": true
+              },
+              {
+                "id": "1738665292497",
+                "name": "Ses Ekip & Ekipman",
+                "unit": "adet",
+                "price": 10000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 10000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738665302447",
+            "name": "POST PRODÜKSİYON",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738665316180",
+                "name": "Alanda Kurgu",
+                "unit": "adet",
+                "price": 28000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 28000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738665324964",
+            "name": "PRODÜKSİYON HARCAMA",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738665341113",
+                "name": "İaşe",
+                "unit": "adet",
+                "price": 1000,
+                "days": 1,
+                "quantity": 4,
+                "totalPrice": 4000,
+                "isCustom": true
+              },
+              {
+                "id": "1738665356179",
+                "name": "Ekip Ulaşım",
+                "unit": "adet",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 105500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Reddedildi",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738665371270",
+    "createdAt": "2025-02-04T10:36:11.270Z",
+    "updatedAt": "2025-02-04T11:04:56.189Z"
+  },
+  {
+    "customerName": "GARANTİ BBVA",
+    "projectName": "Demo Day Çekimi (4Şubat)",
+    "date": "2025-01-13",
+    "topics": [
+      {
+        "id": "1738665465029",
+        "name": "Demo Day Çekimi (4Şubat)",
+        "categories": [
+          {
+            "id": "1738665490639",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738665495577",
+                "name": "Prodüktör",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000
+              },
+              {
+                "id": "1738665503644",
+                "name": "Kamera & Kameraman",
+                "price": 12500,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 25000
+              },
+              {
+                "id": "1738665510397",
+                "name": "Işık Ekipman",
+                "price": 10000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 10000
+              },
+              {
+                "id": "1738665516630",
+                "name": "Ses Ekipman",
+                "price": 6000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 6000
+              }
+            ]
+          },
+          {
+            "id": "1738665528375",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738665540278",
+                "name": "Kurgu",
+                "price": 16000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 16000
+              },
+              {
+                "id": "1738665543910",
+                "name": "Alanda Kurgu",
+                "price": 18000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 18000
+              }
+            ]
+          },
+          {
+            "id": "1738665599521",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738665603776",
+                "name": "İaşe",
+                "price": 1000,
+                "days": 1,
+                "quantity": 5,
+                "totalPrice": 5000
+              },
+              {
+                "id": "1738665607627",
+                "name": "Ekip Ulaşım",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 98500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738665646490",
+    "createdAt": "2025-02-04T10:40:46.490Z",
+    "updatedAt": "2025-02-04T10:40:46.490Z"
+  },
+  {
+    "customerName": "ING",
+    "projectName": "Lider Gelişim Programı ve Eğitim Programı Çekimi (14 Ocak)",
+    "date": "2025-01-09",
+    "topics": [
+      {
+        "id": "1738666505620",
+        "name": "Lider Gelişim Programı ve Eğitim Programı Çekimi (14 Ocak)",
+        "categories": [
+          {
+            "id": "1738666514071",
+            "name": "EKİP & EKİPMAN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738666548835",
+                "name": "Kamera & Kameraman",
+                "unit": "adet",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000,
+                "isCustom": true
+              },
+              {
+                "id": "1738666636006",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "unit": "adet",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738666644606",
+            "name": "POST PRODÜKSİYON",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738666656338",
+                "name": "Kurgu",
+                "unit": "adet",
+                "price": 20000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 20000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738666664424",
+            "name": "PRODÜKSİYON HARCAMA",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738666683538",
+                "name": "İaşe",
+                "unit": "adet",
+                "price": 1000,
+                "days": 1,
+                "quantity": 3,
+                "totalPrice": 3000,
+                "isCustom": true
+              },
+              {
+                "id": "1738666722003",
+                "name": "Ekip Ulaşım",
+                "unit": "adet",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 56500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Faturalandı",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738666749275",
+    "createdAt": "2025-02-04T10:59:09.275Z",
+    "updatedAt": "2025-02-04T11:01:49.894Z"
+  },
+  {
+    "customerName": "HEPSİBURADA",
+    "projectName": "HepsiburadaXVodafone Event (14 Ocak)",
+    "date": "2025-01-13",
+    "topics": [
+      {
+        "id": "1738667167744",
+        "name": "HepsiburadaXVodafone Event (14 Ocak)",
+        "categories": [
+          {
+            "id": "1738667175578",
+            "name": "EKİP & EKİPMAN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738667190211",
+                "name": "Kamera & Kameraman",
+                "unit": "adet",
+                "price": 16000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 16000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738667198076",
+            "name": "POST PRODÜKSİYON",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738667209643",
+                "name": "Alanda Kurgu",
+                "unit": "adet",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738667216942",
+            "name": "PRODÜKSİYON HARCAMA",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738667231460",
+                "name": "İaşe",
+                "unit": "adet",
+                "price": 750,
+                "days": 1,
+                "quantity": 3,
+                "totalPrice": 2250,
+                "isCustom": true
+              },
+              {
+                "id": "1738667244310",
+                "name": "Ekip Ulaşım",
+                "unit": "adet",
+                "price": 2500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 2500,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 45750,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Faturalandı",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738667257626",
+    "createdAt": "2025-02-04T11:07:37.626Z",
+    "updatedAt": "2025-02-04T11:08:05.422Z"
+  },
+  {
+    "customerName": "ING",
+    "projectName": "Lider Gelişim Programı Eğitim Programı Çekimi (3 Şubat)",
+    "date": "2025-01-13",
+    "topics": [
+      {
+        "id": "1738667361726",
+        "name": "Lider Gelişim Programı Eğitim Programı Çekimi (3 Şubat)",
+        "categories": [
+          {
+            "id": "1738667368790",
+            "name": "EKİP & EKİPMAN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738667378524",
+                "name": "Kamera & Kameraman",
+                "unit": "adet",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000,
+                "isCustom": true
+              },
+              {
+                "id": "1738667390073",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "unit": "adet",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738667396906",
+            "name": "PRODÜKSİYON HARCAMA",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738667411206",
+                "name": "İaşe",
+                "unit": "adet",
+                "price": 1000,
+                "days": 1,
+                "quantity": 3,
+                "totalPrice": 3000,
+                "isCustom": true
+              },
+              {
+                "id": "1738667423805",
+                "name": "Ekip Ulaşım",
+                "unit": "adet",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 35000,
+    "showTotal": true,
+    "discount": {
+      "type": "amount",
+      "value": 1500
+    },
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Reddedildi",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738667444830",
+    "createdAt": "2025-02-04T11:10:44.830Z",
+    "updatedAt": "2025-02-04T11:10:56.676Z"
+  },
+  {
+    "customerName": "ANADOLU EFES",
+    "projectName": "+1 Sunar Motive Prodüksiyon Desteği (18 Ocak)",
+    "date": "2025-01-14",
+    "topics": [
+      {
+        "id": "1738667518727",
+        "name": "+1 Sunar Motive Prodüksiyon Desteği (18 Ocak)",
+        "categories": [
+          {
+            "id": "1738667525627",
+            "name": "EKİP & EKİPMAN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738667534860",
+                "name": "Kamera & Kameraman",
+                "unit": "adet",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000,
+                "isCustom": true
+              },
+              {
+                "id": "1738667545443",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "unit": "adet",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738667552025",
+            "name": "POST PRODÜKSİYON",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738667566276",
+                "name": "Etkinlik Kurgu",
+                "unit": "adet",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738667573792",
+            "name": "PRODÜKSİYON HARCAMA",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738667586775",
+                "name": "İaşe",
+                "unit": "adet",
+                "price": 1000,
+                "days": 1,
+                "quantity": 3,
+                "totalPrice": 3000,
+                "isCustom": true
+              },
+              {
+                "id": "1738667597257",
+                "name": "Ekip Ulaşım",
+                "unit": "adet",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 61500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Reddedildi",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738667610589",
+    "createdAt": "2025-02-04T11:13:30.589Z",
+    "updatedAt": "2025-02-04T11:13:45.538Z"
+  },
+  {
+    "customerName": "TURMEPA",
+    "projectName": "30. Yıl Altyazı",
+    "date": "2025-01-14",
+    "topics": [
+      {
+        "id": "1738667665090",
+        "name": "30. Yıl Altyazı",
+        "categories": [
+          {
+            "id": "1738667671623",
+            "name": "POST PRODÜKSİYON",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738667682422",
+                "name": "Altyazı",
+                "unit": "adet",
+                "price": 7000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 7000,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 7000,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Faturalandı",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738667691490",
+    "createdAt": "2025-02-04T11:14:51.490Z",
+    "updatedAt": "2025-02-04T11:15:18.721Z"
+  },
+  {
+    "customerName": "MNG KARGO",
+    "projectName": "CANLI YAYIN HİZMETİ",
+    "date": "2025-01-15",
+    "topics": [
+      {
+        "id": "1738667789235",
+        "name": "CANLI YAYIN HİZMETİ",
+        "categories": [
+          {
+            "id": "1738667806503",
+            "name": "CANLI YAYIN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738667819569",
+                "name": "Canlı Yayın Yönetim Sistemi",
+                "unit": "adet",
+                "price": 50000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 50000,
+                "isCustom": true
+              },
+              {
+                "id": "1738667833201",
+                "name": "Etkinlik Kayıt Sistemi",
+                "unit": "adet",
+                "price": 20000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 20000,
+                "isCustom": true
+              },
+              {
+                "id": "1738667844585",
+                "name": "Soru Modülü",
+                "unit": "adet",
+                "price": 10000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 10000,
+                "isCustom": true
+              },
+              {
+                "id": "1738667853551",
+                "name": "Anket Modülü",
+                "unit": "adet",
+                "price": 5000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 5000,
+                "isCustom": true
+              },
+              {
+                "id": "1738667866351",
+                "name": "Canlı Yayın Bağlantı Hizmetleri (2000 kişi dahil)",
+                "unit": "adet",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000,
+                "isCustom": true
+              },
+              {
+                "id": "1738667876000",
+                "name": "Canlı Yayın Tasarımı",
+                "unit": "adet",
+                "price": 7500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 7500,
+                "isCustom": true
+              },
+              {
+                "id": "1738667890184",
+                "name": "Canlı Yayın Ekran Tasarımı Html Çalışması",
+                "unit": "adet",
+                "price": 7500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 7500,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738667899033",
+            "name": "EKİPMAN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738667907950",
+                "name": "Kamera&Kameraman",
+                "unit": "adet",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000,
+                "isCustom": true
+              },
+              {
+                "id": "1738667920449",
+                "name": "Konuşmacı Işığı",
+                "unit": "adet",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738667927649",
+            "name": "ULAŞIM & İAŞE",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738667939699",
+                "name": "Ekip & Ekipman Ulaşım",
+                "unit": "adet",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500,
+                "isCustom": true
+              },
+              {
+                "id": "1738667948698",
+                "name": "İaşe",
+                "unit": "adet",
+                "price": 750,
+                "days": 1,
+                "quantity": 5,
+                "totalPrice": 3750,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 152250,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738667973915",
+    "createdAt": "2025-02-04T11:19:33.915Z",
+    "updatedAt": "2025-02-04T11:19:33.915Z"
+  },
+  {
+    "customerName": "Ng Event",
+    "projectName": "Samsun Piazza AVM Fotoğraf Çekimi (14 Şubat)",
+    "date": "2025-02-04",
+    "topics": [
+      {
+        "id": "1738668546140",
+        "name": "Samsun Piazza AVM Fotoğraf Çekimi (14 Şubat)",
+        "categories": [
+          {
+            "id": "1738668551068",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738668557411",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 17500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 17500
+              }
+            ]
+          },
+          {
+            "id": "1738668563672",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738668598210",
+                "name": "İaşe",
+                "price": 1500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 1500
+              },
+              {
+                "id": "1738668610180",
+                "name": "Ekip Ulaşım(Şehir İçi)",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500
+              },
+              {
+                "id": "1738668666814",
+                "name": "Ekip Ulaşım(Şehir Dışı)",
+                "price": 2500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 2500
+              },
+              {
+                "id": "1738668760720",
+                "name": "Ekip Ulaşım (Uçak)",
+                "unit": "adet",
+                "price": 5000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 5000,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 30000,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738668861708",
+    "createdAt": "2025-02-04T11:34:21.708Z",
+    "updatedAt": "2025-02-04T12:34:22.705Z"
+  },
+  {
+    "customerName": "MINI",
+    "projectName": "DAS 3917 Kayseri",
+    "date": "2025-01-14",
+    "topics": [
+      {
+        "id": "1738668500615",
+        "name": "DAS 3917 Kayseri",
+        "categories": [
+          {
+            "id": "1738668511778",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738668523048",
+                "name": "Prodüktör",
+                "price": 15000,
+                "days": 2.5,
+                "quantity": 1,
+                "totalPrice": 37500
+              },
+              {
+                "id": "1738668543397",
+                "name": "Kamera & Kameraman",
+                "price": 13000,
+                "days": 2.5,
+                "quantity": 3,
+                "totalPrice": 97500
+              },
+              {
+                "id": "1738668561314",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 12500,
+                "days": 2.5,
+                "quantity": 2,
+                "totalPrice": 62500
+              },
+              {
+                "id": "1738668578597",
+                "name": "Drone & Drone Operatörü",
+                "price": 14000,
+                "days": 2.5,
+                "quantity": 1,
+                "totalPrice": 35000
+              },
+              {
+                "id": "1738668726846",
+                "name": "Asistan",
+                "price": 7000,
+                "days": 2.5,
+                "quantity": 1,
+                "totalPrice": 17500
+              },
+              {
+                "id": "1738668738413",
+                "name": "GoPro",
+                "price": 1250,
+                "days": 2,
+                "quantity": 2,
+                "totalPrice": 5000
+              }
+            ]
+          },
+          {
+            "id": "1738668808259",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738668817595",
+                "name": "Kurgu",
+                "price": 21000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 21000
+              },
+              {
+                "id": "1738668821495",
+                "name": "Alanda Kurgu",
+                "price": 21000,
+                "days": 2.5,
+                "quantity": 1,
+                "totalPrice": 52500
+              }
+            ]
+          },
+          {
+            "id": "1738668832740",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738668851578",
+                "name": "İaşe",
+                "price": 1000,
+                "days": 2.5,
+                "quantity": 10,
+                "totalPrice": 25000
+              },
+              {
+                "id": "1738668874094",
+                "name": "Konaklama",
+                "unit": "adet",
+                "price": 2500,
+                "days": 2,
+                "quantity": 10,
+                "totalPrice": 50000,
+                "isCustom": true
+              },
+              {
+                "id": "1738669217758",
+                "name": "Ekip Ulaşım (Uçak)",
+                "price": 2750,
+                "days": 2,
+                "quantity": 9,
+                "totalPrice": 49500
+              },
+              {
+                "id": "1738669245140",
+                "name": "Ekip Ulaşım (Şehir İçi)",
+                "price": 15000,
+                "days": 3,
+                "quantity": 1,
+                "totalPrice": 45000
+              },
+              {
+                "id": "1738669262491",
+                "name": "Ekip Ulaşım",
+                "price": 2500,
+                "days": 2,
+                "quantity": 2,
+                "totalPrice": 10000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 508000,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Reddedildi",
+    "createdBy": "Semih Kalkan",
+    "id": "1738669273386",
+    "createdAt": "2025-02-04T11:41:13.386Z",
+    "updatedAt": "2025-02-04T14:50:52.704Z"
+  },
+  {
+    "customerName": "MNG KARGO ",
+    "projectName": "CANLI YAYIN HİZMETİ (Revize)",
+    "date": "2025-01-15",
+    "topics": [
+      {
+        "id": "1738669276803",
+        "name": "CANLI YAYIN HİZMETİ (Revize)",
+        "categories": [
+          {
+            "id": "1738669285937",
+            "name": "CANLI YAYIN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738669295887",
+                "name": "Canlı Yayın Yönetim Sistemi",
+                "unit": "adet",
+                "price": 50000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 50000,
+                "isCustom": true
+              },
+              {
+                "id": "1738669305237",
+                "name": "Etkinlik Kayıt Sistemi",
+                "unit": "adet",
+                "price": 20000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 20000,
+                "isCustom": true
+              },
+              {
+                "id": "1738669320421",
+                "name": "Soru Modülü",
+                "unit": "adet",
+                "price": 10000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 10000,
+                "isCustom": true
+              },
+              {
+                "id": "1738669329638",
+                "name": "Anket Modülü",
+                "unit": "adet",
+                "price": 5000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 5000,
+                "isCustom": true
+              },
+              {
+                "id": "1738669341473",
+                "name": "Canlı Yayın Bağlantı Hizmetleri (2000 kişi dahil)",
+                "unit": "adet",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000,
+                "isCustom": true
+              },
+              {
+                "id": "1738669354257",
+                "name": "Canlı Yayın Tasarımı",
+                "unit": "adet",
+                "price": 7500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 7500,
+                "isCustom": true
+              },
+              {
+                "id": "1738669365591",
+                "name": "Canlı Yayın Ekran Tasarımı Html Çalışması",
+                "unit": "adet",
+                "price": 7500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 7500,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738669377058",
+            "name": "ULAŞIM & İAŞE",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738669388943",
+                "name": "Ekip & Ekipman Ulaşım",
+                "unit": "adet",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500,
+                "isCustom": true
+              },
+              {
+                "id": "1738669402843",
+                "name": "İaşe",
+                "unit": "adet",
+                "price": 750,
+                "days": 1,
+                "quantity": 4,
+                "totalPrice": 3000,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 121500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738670002717",
+    "createdAt": "2025-02-04T11:53:22.717Z",
+    "updatedAt": "2025-02-04T11:53:22.717Z"
+  },
+  {
+    "customerName": "Ng Event",
+    "projectName": "Borusan Otomotiv Vodafone Araç Teslimi Fotoğraf Çekimi (1 Şubat)",
+    "date": "2025-01-16",
+    "topics": [
+      {
+        "id": "1738670054735",
+        "name": "Borusan Otomotiv Vodafone Araç Teslimi Fotoğraf Çekimi (1 Şubat)",
+        "categories": [
+          {
+            "id": "1738670075316",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738670078969",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 17500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 17500
+              }
+            ]
+          },
+          {
+            "id": "1738670096730",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738670115804",
+                "name": "İaşe",
+                "price": 1000,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 2000
+              },
+              {
+                "id": "1738670123770",
+                "name": "Ekip Ulaşım",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 23000,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Reddedildi",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738670138890",
+    "createdAt": "2025-02-04T11:55:38.890Z",
+    "updatedAt": "2025-02-04T11:56:07.831Z"
+  },
+  {
+    "id": "1738670165335",
+    "customerName": "MINI",
+    "projectName": "DAS 3917 Kayseri (Revize)",
+    "date": "2025-01-14",
+    "topics": [
+      {
+        "id": "1738668500615",
+        "name": "DAS 3917 Kayseri",
+        "categories": [
+          {
+            "id": "1738668511778",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738668523048",
+                "name": "Prodüktör",
+                "price": 15000,
+                "days": 2.5,
+                "quantity": 1,
+                "totalPrice": 37500
+              },
+              {
+                "id": "1738668543397",
+                "name": "Kamera & Kameraman",
+                "price": 13000,
+                "days": 2.5,
+                "quantity": 2,
+                "totalPrice": 65000
+              },
+              {
+                "id": "1738668561314",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 12500,
+                "days": 2.5,
+                "quantity": 1,
+                "totalPrice": 31250
+              },
+              {
+                "id": "1738668578597",
+                "name": "Drone & Drone Operatörü",
+                "price": 14000,
+                "days": 2.5,
+                "quantity": 1,
+                "totalPrice": 35000
+              },
+              {
+                "id": "1738668726846",
+                "name": "Asistan",
+                "price": 7000,
+                "days": 2.5,
+                "quantity": 1,
+                "totalPrice": 17500
+              },
+              {
+                "id": "1738668738413",
+                "name": "GoPro",
+                "price": 1250,
+                "days": 2,
+                "quantity": 2,
+                "totalPrice": 5000
+              }
+            ]
+          },
+          {
+            "id": "1738668808259",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738668817595",
+                "name": "Kurgu",
+                "price": 17500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 17500
+              }
+            ]
+          },
+          {
+            "id": "1738668832740",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738668851578",
+                "name": "İaşe",
+                "price": 1000,
+                "days": 2.5,
+                "quantity": 7,
+                "totalPrice": 17500
+              },
+              {
+                "id": "1738668874094",
+                "name": "Konaklama",
+                "unit": "adet",
+                "price": 2500,
+                "days": 2,
+                "quantity": 7,
+                "totalPrice": 35000,
+                "isCustom": true
+              },
+              {
+                "id": "1738669217758",
+                "name": "Ekip Ulaşım (Uçak)",
+                "price": 2750,
+                "days": 2,
+                "quantity": 7,
+                "totalPrice": 38500
+              },
+              {
+                "id": "1738669245140",
+                "name": "Ekip Ulaşım (Şehir İçi)",
+                "price": 15000,
+                "days": 3,
+                "quantity": 1,
+                "totalPrice": 45000
+              },
+              {
+                "id": "1738669262491",
+                "name": "Ekip Ulaşım",
+                "price": 2500,
+                "days": 2,
+                "quantity": 2,
+                "totalPrice": 10000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 354750,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Semih Kalkan",
+    "createdAt": "2025-02-04T11:56:05.335Z",
+    "updatedAt": "2025-02-04T11:56:05.335Z"
+  },
+  {
+    "customerName": "Ng Event",
+    "projectName": "SAMSUNG x KNTGLY Lansman Çekim",
+    "date": "2024-12-30",
+    "topics": [
+      {
+        "id": "1738670251846",
+        "name": "SAMSUNG x KNTGLY Lansman Çekim",
+        "categories": [
+          {
+            "id": "1738670260142",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738670272263",
+                "name": "Kamera & Kameraman",
+                "price": 18000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 18000
+              },
+              {
+                "id": "1738670275444",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 17500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 17500
+              }
+            ]
+          },
+          {
+            "id": "1738670254393",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738670281628",
+                "name": "Kurgu",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000
+              }
+            ]
+          },
+          {
+            "id": "1738670287275",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738670293578",
+                "name": "İaşe",
+                "price": 1000,
+                "days": 1,
+                "quantity": 3,
+                "totalPrice": 3000
+              },
+              {
+                "id": "1738670296577",
+                "name": "Ekip Ulaşım",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 67000,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Faturalandı",
+    "createdBy": "Semih Kalkan",
+    "id": "1738670303889",
+    "createdAt": "2025-02-04T11:58:23.889Z",
+    "updatedAt": "2025-02-04T14:54:45.669Z"
+  },
+  {
+    "customerName": "Ng Event",
+    "projectName": "SAMSUNG 1-1 VIP EVENT PRODÜKSİYON (31 Ocak-1 Şubat)",
+    "date": "2025-01-16",
+    "topics": [
+      {
+        "id": "1738670264852",
+        "name": "SAMSUNG 1-1 VIP EVENT PRODÜKSİYON (31 Ocak-1 Şubat)",
+        "categories": [
+          {
+            "id": "1738670271012",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738670279118",
+                "name": "Kamera & Kameraman",
+                "price": 18000,
+                "days": 2,
+                "quantity": 1,
+                "totalPrice": 36000
+              },
+              {
+                "id": "1738670285836",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 17500,
+                "days": 2,
+                "quantity": 1,
+                "totalPrice": 35000
+              }
+            ]
+          },
+          {
+            "id": "1738670293117",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738670296188",
+                "name": "Kurgu",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000
+              }
+            ]
+          },
+          {
+            "id": "1738670302866",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738670319254",
+                "name": "İaşe",
+                "price": 1000,
+                "days": 2,
+                "quantity": 3,
+                "totalPrice": 6000
+              },
+              {
+                "id": "1738670329121",
+                "name": "Ekip Ulaşım",
+                "price": 3500,
+                "days": 2,
+                "quantity": 1,
+                "totalPrice": 7000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 109000,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738670343806",
+    "createdAt": "2025-02-04T11:59:03.806Z",
+    "updatedAt": "2025-02-04T11:59:03.806Z"
+  },
+  {
+    "customerName": "MINI",
+    "projectName": "2024 Filmi & Welcome Pack Çekimi\t",
+    "date": "2025-01-03",
+    "topics": [
+      {
+        "id": "1738670358127",
+        "name": "2024 Filmi & Welcome Pack Çekimi",
+        "categories": [
+          {
+            "id": "1738670367691",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738670373544",
+                "name": "Kamera & Kameraman",
+                "price": 13000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 13000
+              },
+              {
+                "id": "1738670376293",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 12500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 12500
+              },
+              {
+                "id": "1738670379225",
+                "name": "Işık Ekipman",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000
+              }
+            ]
+          },
+          {
+            "id": "1738670394858",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738670415893",
+                "name": "Kurgu",
+                "price": 35000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 35000
+              },
+              {
+                "id": "1738670450893",
+                "name": "Tasarım",
+                "unit": "adet",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738670459157",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738670463742",
+                "name": "İaşe",
+                "price": 750,
+                "days": 1,
+                "quantity": 3,
+                "totalPrice": 2250
+              },
+              {
+                "id": "1738670466592",
+                "name": "Ekip Ulaşım",
+                "price": 2500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 2500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 95250,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Faturalandı",
+    "createdBy": "Semih Kalkan",
+    "id": "1738670473567",
+    "createdAt": "2025-02-04T12:01:13.567Z",
+    "updatedAt": "2025-02-04T14:55:51.205Z"
+  },
+  {
+    "customerName": "ŞEHİR HATLARI",
+    "projectName": "Çocuklara Özel Boğaz Turu Etkinliği(29 Ocak)",
+    "date": "2025-01-21",
+    "topics": [
+      {
+        "id": "1738670434359",
+        "name": "Çocuklara Özel Boğaz Turu Etkinliği(29 Ocak)",
+        "categories": [
+          {
+            "id": "1738670444842",
+            "name": "EKİP & EKİPMAN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738670464077",
+                "name": "Kamera & Kameraman",
+                "unit": "adet",
+                "price": 20000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 20000,
+                "isCustom": true
+              },
+              {
+                "id": "1738670472661",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "unit": "adet",
+                "price": 19000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 19000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738670480760",
+            "name": "POST PRODÜKSİYON",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738670494562",
+                "name": "Kurgu (Sosyal Medya)",
+                "unit": "adet",
+                "price": 26000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 26000,
+                "isCustom": true
+              },
+              {
+                "id": "1738670506579",
+                "name": "Kurgu (Basın Video)",
+                "unit": "adet",
+                "price": 26000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 26000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738670513079",
+            "name": "PRODÜKSİYON HARCAMA",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738670538447",
+                "name": "İaşe",
+                "unit": "adet",
+                "price": 1000,
+                "days": 1,
+                "quantity": 3,
+                "totalPrice": 3000,
+                "isCustom": true
+              },
+              {
+                "id": "1738670554180",
+                "name": "Ekip Ulaşım",
+                "unit": "adet",
+                "price": 2500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 2500,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 96500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Faturalandı",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738670568926",
+    "createdAt": "2025-02-04T12:02:48.926Z",
+    "updatedAt": "2025-02-04T12:03:20.030Z"
+  },
+  {
+    "customerName": "HEPSİBURADA",
+    "projectName": "Influencer Etkinliği MANDARIN\t",
+    "date": "2025-01-03",
+    "topics": [
+      {
+        "id": "1738670528460",
+        "name": "Influencer Etkinliği MANDARIN",
+        "categories": [
+          {
+            "id": "1738670534705",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738670538442",
+                "name": "Kamera & Kameraman",
+                "price": 16000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 16000
+              },
+              {
+                "id": "1738670541291",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 16000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 16000
+              }
+            ]
+          },
+          {
+            "id": "1738670551539",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738670554224",
+                "name": "Alanda Kurgu",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000
+              }
+            ]
+          },
+          {
+            "id": "1738670557172",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738670562359",
+                "name": "İaşe",
+                "price": 750,
+                "days": 1,
+                "quantity": 4,
+                "totalPrice": 3000
+              },
+              {
+                "id": "1738670566408",
+                "name": "Ekip Ulaşım",
+                "price": 2500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 2500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 62500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Faturalandı",
+    "createdBy": "Semih Kalkan",
+    "id": "1738670572797",
+    "createdAt": "2025-02-04T12:02:52.797Z",
+    "updatedAt": "2025-02-04T14:56:05.081Z"
+  },
+  {
+    "customerName": "Ng Event",
+    "projectName": "Decathlon May Fest - Ankara (17 Mayıs)",
+    "date": "2025-01-22",
+    "topics": [
+      {
+        "id": "1738670682254",
+        "name": "Decathlon May Fest - Ankara (17 Mayıs)",
+        "categories": [
+          {
+            "id": "1738670686581",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738670693337",
+                "name": "Prodüktör",
+                "price": 20000,
+                "days": 1.5,
+                "quantity": 1,
+                "totalPrice": 30000
+              },
+              {
+                "id": "1738670714155",
+                "name": "Kamera & Kameraman",
+                "price": 18000,
+                "days": 1.5,
+                "quantity": 2,
+                "totalPrice": 54000
+              },
+              {
+                "id": "1738670728370",
+                "name": "Drone & Drone Operatörü",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000
+              },
+              {
+                "id": "1738670743371",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 17500,
+                "days": 1.5,
+                "quantity": 2,
+                "totalPrice": 52500
+              }
+            ]
+          },
+          {
+            "id": "1738670751682",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738670764741",
+                "name": "Alanda Kurgu",
+                "price": 28000,
+                "days": 1.5,
+                "quantity": 1,
+                "totalPrice": 42000
+              },
+              {
+                "id": "1738670771822",
+                "name": "Kurgu",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000
+              }
+            ]
+          },
+          {
+            "id": "1738670780288",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738670794675",
+                "name": "İaşe",
+                "price": 1500,
+                "days": 2,
+                "quantity": 6,
+                "totalPrice": 18000
+              },
+              {
+                "id": "1738670809942",
+                "name": "Ekip Ulaşım",
+                "price": 20000,
+                "days": 2,
+                "quantity": 1,
+                "totalPrice": 40000
+              },
+              {
+                "id": "1738670829459",
+                "name": "Konaklama",
+                "unit": "adet",
+                "price": 3000,
+                "days": 1,
+                "quantity": 6,
+                "totalPrice": 18000,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 304500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738670882357",
+    "createdAt": "2025-02-04T12:08:02.357Z",
+    "updatedAt": "2025-02-04T12:08:02.357Z"
+  },
+  {
+    "customerName": "Ng Event",
+    "projectName": "Decathlon May Fest İstanbul (24 Mayıs)",
+    "date": "2025-01-22",
+    "topics": [
+      {
+        "id": "1738670928814",
+        "name": "Decathlon May Fest İstanbul (24 Mayıs)",
+        "categories": [
+          {
+            "id": "1738670933712",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738670937464",
+                "name": "Prodüktör",
+                "price": 20000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 20000
+              },
+              {
+                "id": "1738670944765",
+                "name": "Kamera & Kameraman",
+                "price": 18000,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 36000
+              },
+              {
+                "id": "1738670950917",
+                "name": "Drone & Drone Operatörü",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000
+              },
+              {
+                "id": "1738670963016",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 17500,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 35000
+              }
+            ]
+          },
+          {
+            "id": "1738670967309",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738670974798",
+                "name": "Alanda Kurgu",
+                "price": 28000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 28000
+              },
+              {
+                "id": "1738670978031",
+                "name": "Kurgu",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000
+              }
+            ]
+          },
+          {
+            "id": "1738670981330",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738670994616",
+                "name": "İaşe",
+                "price": 1000,
+                "days": 1,
+                "quantity": 7,
+                "totalPrice": 7000
+              },
+              {
+                "id": "1738671005251",
+                "name": "Ekip Ulaşım",
+                "price": 3500,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 7000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 183000,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738671016203",
+    "createdAt": "2025-02-04T12:10:16.203Z",
+    "updatedAt": "2025-02-04T12:10:16.203Z"
+  },
+  {
+    "customerName": "ANADOLU EFES",
+    "projectName": "MODERN KANAL VE KAPALI KANAL FOTOĞRAF ÇEKİMİ (24 Ocak)",
+    "date": "2025-01-23",
+    "topics": [
+      {
+        "id": "1738671131955",
+        "name": "MODERN KANAL VE KAPALI KANAL FOTOĞRAF ÇEKİMİ (24 Ocak)",
+        "categories": [
+          {
+            "id": "1738671140830",
+            "name": "EKİP & EKİPMAN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738671153286",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "unit": "adet",
+                "price": 14000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 14000,
+                "isCustom": true
+              },
+              {
+                "id": "1738671163941",
+                "name": "Işık & Işık Ekipman",
+                "unit": "adet",
+                "price": 7000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 7000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738671170740",
+            "name": "POST PRODÜKSİYON",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738671181941",
+                "name": "Retouch",
+                "unit": "adet",
+                "price": 1000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 1000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738671191275",
+            "name": "PRODÜKSİYON HARCAMA",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738671215143",
+                "name": "İaşe",
+                "unit": "adet",
+                "price": 750,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 1500,
+                "isCustom": true
+              },
+              {
+                "id": "1738671229993",
+                "name": "Ekip Ulaşım",
+                "unit": "adet",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 27000,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Reddedildi",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738671238889",
+    "createdAt": "2025-02-04T12:13:58.889Z",
+    "updatedAt": "2025-02-04T12:14:08.461Z"
+  },
+  {
+    "customerName": "Ng Event",
+    "projectName": "DyDo Drinco Etkinlik Çekimi(17 Ocak)",
+    "date": "2025-01-23",
+    "topics": [
+      {
+        "id": "1738671594363",
+        "name": "DyDo Drinco Etkinlik Çekimi(17 Ocak)",
+        "categories": [
+          {
+            "id": "1738671598040",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738671610063",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 17500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 17500
+              }
+            ]
+          },
+          {
+            "id": "1738671612907",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738671623114",
+                "name": "İaşe",
+                "price": 1000,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 2000
+              },
+              {
+                "id": "1738671626247",
+                "name": "Ekip Ulaşım",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 17500,
+    "showTotal": true,
+    "discount": {
+      "type": "amount",
+      "value": 5500
+    },
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Faturalandı",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738671654690",
+    "createdAt": "2025-02-04T12:20:54.690Z",
+    "updatedAt": "2025-02-04T12:21:23.955Z"
+  },
+  {
+    "customerName": "MINI",
+    "projectName": "JCW Walkaround Çekimi Caner Çiçekdiken\t",
+    "date": "2024-12-30",
+    "topics": [
+      {
+        "id": "1738670614909",
+        "name": "JCW Walkaround Çekimi Caner Çiçekdiken",
+        "categories": [
+          {
+            "id": "1738670618205",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738670621757",
+                "name": "Prodüktör",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000
+              },
+              {
+                "id": "1738670626708",
+                "name": "Kamera & Kameraman",
+                "price": 13000,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 26000
+              },
+              {
+                "id": "1738670646424",
+                "name": "Kamera Ekipman",
+                "unit": "adet",
+                "price": 10000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 10000,
+                "isCustom": true
+              },
+              {
+                "id": "1738670654357",
+                "name": "Ses Ekipman",
+                "price": 6000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 6000
+              },
+              {
+                "id": "1738670834805",
+                "name": "Işık Ekipman",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000
+              },
+              {
+                "id": "1738670721673",
+                "name": "Prompter",
+                "unit": "adet",
+                "price": 12000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 12000,
+                "isCustom": true
+              },
+              {
+                "id": "1738670746005",
+                "name": "Asistan",
+                "price": 6000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 6000
+              }
+            ]
+          },
+          {
+            "id": "1738670853218",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738672647582",
+                "name": "Kurgu",
+                "price": 17500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 17500
+              }
+            ]
+          },
+          {
+            "id": "1738672651629",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738672660798",
+                "name": "İaşe",
+                "price": 750,
+                "days": 1,
+                "quantity": 7,
+                "totalPrice": 5250
+              },
+              {
+                "id": "1738672665198",
+                "name": "Ekip Ulaşım",
+                "price": 3000,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 6000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 118750,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Faturalandı",
+    "createdBy": "Semih Kalkan",
+    "id": "1738672693823",
+    "createdAt": "2025-02-04T12:38:13.823Z",
+    "updatedAt": "2025-02-04T14:55:21.569Z"
+  },
+  {
+    "customerName": "MINI",
+    "projectName": "DADA UZAK ORMAN Etkinliği\t",
+    "date": "2025-01-09",
+    "topics": [
+      {
+        "id": "1738672770048",
+        "name": "DADA UZAK ORMAN Etkinliği",
+        "categories": [
+          {
+            "id": "1738672775196",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738672781463",
+                "name": "Prodüktör",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000
+              },
+              {
+                "id": "1738672786815",
+                "name": "Kamera & Kameraman",
+                "price": 13000,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 26000
+              },
+              {
+                "id": "1738672790914",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 12500,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 25000
+              }
+            ]
+          },
+          {
+            "id": "1738672798895",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738672806081",
+                "name": "Alanda Kurgu",
+                "price": 21000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 21000
+              },
+              {
+                "id": "1738672802380",
+                "name": "Etkinlik Videosu",
+                "price": 17500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 17500
+              }
+            ]
+          },
+          {
+            "id": "1738672875344",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738672885548",
+                "name": "İaşe",
+                "price": 750,
+                "days": 1,
+                "quantity": 8,
+                "totalPrice": 6000
+              },
+              {
+                "id": "1738672889765",
+                "name": "Ekip Ulaşım",
+                "price": 6000,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 12000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 122500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Faturalandı",
+    "createdBy": "Semih Kalkan",
+    "id": "1738673395787",
+    "createdAt": "2025-02-04T12:49:55.787Z",
+    "updatedAt": "2025-02-04T14:56:22.720Z"
+  },
+  {
+    "customerName": "TURKCELL",
+    "projectName": "Teknofest Kıbrıs (1-4 Mayıs)",
+    "date": "2025-01-24",
+    "topics": [
+      {
+        "id": "1738673275908",
+        "name": "Teknofest Kıbrıs (1-4 Mayıs)",
+        "categories": [
+          {
+            "id": "1738673288092",
+            "name": "EKİP & EKİPMAN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738673306308",
+                "name": "Kamera & Kameraman",
+                "unit": "adet",
+                "price": 20000,
+                "days": 4.5,
+                "quantity": 3,
+                "totalPrice": 270000,
+                "isCustom": true
+              },
+              {
+                "id": "1738673328859",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "unit": "adet",
+                "price": 18000,
+                "days": 4.5,
+                "quantity": 1,
+                "totalPrice": 81000,
+                "isCustom": true
+              },
+              {
+                "id": "1738673343627",
+                "name": "Ses Ekipmanı",
+                "unit": "adet",
+                "price": 8000,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 32000,
+                "isCustom": true
+              },
+              {
+                "id": "1738673358261",
+                "name": "Drone",
+                "unit": "adet",
+                "price": 35000,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 140000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738673365011",
+            "name": "POST PRODÜKSİYON",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738673383213",
+                "name": "Alanda Kurgu",
+                "unit": "adet",
+                "price": 27000,
+                "days": 4.5,
+                "quantity": 2,
+                "totalPrice": 243000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738673391380",
+            "name": "PRODÜKSİYON HARCAMA",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738673408230",
+                "name": "İaşe",
+                "unit": "adet",
+                "price": 1750,
+                "days": 4.5,
+                "quantity": 6,
+                "totalPrice": 47250,
+                "isCustom": true
+              },
+              {
+                "id": "1738673432913",
+                "name": "Konaklama",
+                "unit": "adet",
+                "price": 6000,
+                "days": 4,
+                "quantity": 6,
+                "totalPrice": 144000,
+                "isCustom": true
+              },
+              {
+                "id": "1738673453331",
+                "name": "Ulaşım (Uçak)",
+                "unit": "adet",
+                "price": 4500,
+                "days": 2,
+                "quantity": 6,
+                "totalPrice": 54000,
+                "isCustom": true
+              },
+              {
+                "id": "1738673472282",
+                "name": "Ulaşım (Şehir İçi)",
+                "unit": "adet",
+                "price": 22000,
+                "days": 5,
+                "quantity": 1,
+                "totalPrice": 110000,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 1121250,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Reddedildi",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738673486670",
+    "createdAt": "2025-02-04T12:51:26.670Z",
+    "updatedAt": "2025-02-04T12:51:35.874Z"
+  },
+  {
+    "customerName": "Ng Event",
+    "projectName": "Samsung Innovation Campus (Şubat Ayı)",
+    "date": "2025-01-24",
+    "topics": [
+      {
+        "id": "1738673545685",
+        "name": "Samsung Innovation Campus (Şubat Ayı)",
+        "categories": [
+          {
+            "id": "1738673551978",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738673556286",
+                "name": "Kamera & Kameraman",
+                "price": 18000,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 36000
+              },
+              {
+                "id": "1738673559201",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 17500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 17500
+              }
+            ]
+          },
+          {
+            "id": "1738673565791",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738673569035",
+                "name": "Alanda Kurgu",
+                "price": 28000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 28000
+              },
+              {
+                "id": "1738673574852",
+                "name": "Kurgu",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000
+              }
+            ]
+          },
+          {
+            "id": "1738673580980",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738673586952",
+                "name": "İaşe",
+                "price": 1000,
+                "days": 1,
+                "quantity": 5,
+                "totalPrice": 5000
+              },
+              {
+                "id": "1738673593402",
+                "name": "Ekip Ulaşım",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 115000,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738673602260",
+    "createdAt": "2025-02-04T12:53:22.260Z",
+    "updatedAt": "2025-02-04T12:53:22.260Z"
+  },
+  {
+    "customerName": "Ng Event",
+    "projectName": "BOSCH WOMEN'S DAY ONLİNE (7 Mart)",
+    "date": "2025-01-22",
+    "topics": [
+      {
+        "id": "1738673679840",
+        "name": "BOSCH WOMEN'S DAY ONLİNE (7 Mart)",
+        "categories": [
+          {
+            "id": "1738673682388",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738673700624",
+                "name": "CANLI YAYIN",
+                "unit": "adet",
+                "price": 30000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 30000,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 30000,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738673706633",
+    "createdAt": "2025-02-04T12:55:06.633Z",
+    "updatedAt": "2025-02-04T12:55:06.633Z"
+  },
+  {
+    "customerName": "Ng Event",
+    "projectName": "Borusan Enerji Çeyreklik Toplantı (7 Şubat)",
+    "date": "2025-01-27",
+    "topics": [
+      {
+        "id": "1738673744692",
+        "name": "Borusan Enerji Çeyreklik Toplantı (7 Şubat)",
+        "categories": [
+          {
+            "id": "1738673747636",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738673757841",
+                "name": "Kamera & Kameraman",
+                "price": 18000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 18000
+              },
+              {
+                "id": "1738673782227",
+                "name": "Canlı Yayın Bağlantı",
+                "unit": "adet",
+                "price": 28000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 28000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738673841809",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738673848830",
+                "name": "İaşe",
+                "price": 1000,
+                "days": 1,
+                "quantity": 3,
+                "totalPrice": 3000
+              },
+              {
+                "id": "1738673857079",
+                "name": "Ekip Ulaşım",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 52500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Onaylı",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738673865448",
+    "createdAt": "2025-02-04T12:57:45.448Z",
+    "updatedAt": "2025-02-04T12:57:57.557Z"
+  },
+  {
+    "customerName": "Ng Event",
+    "projectName": "Bosch Çocuk Etkinliği Çekimi (26 ya da 27 Nisan)",
+    "date": "2025-01-27",
+    "topics": [
+      {
+        "id": "1738673933987",
+        "name": "Bosch Çocuk Etkinliği Çekimi (26 ya da 27 Nisan)",
+        "categories": [
+          {
+            "id": "1738673940569",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738673943370",
+                "name": "Kamera & Kameraman",
+                "price": 18000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 18000
+              },
+              {
+                "id": "1738673945970",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 17500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 17500
+              }
+            ]
+          },
+          {
+            "id": "1738673952464",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738673955620",
+                "name": "Kurgu",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000
+              }
+            ]
+          },
+          {
+            "id": "1738673961898",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738673966604",
+                "name": "İaşe",
+                "price": 1000,
+                "days": 1,
+                "quantity": 3,
+                "totalPrice": 3000
+              },
+              {
+                "id": "1738673973654",
+                "name": "Ekip Ulaşım",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 67000,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738673983715",
+    "createdAt": "2025-02-04T12:59:43.715Z",
+    "updatedAt": "2025-02-04T12:59:43.715Z"
+  },
+  {
+    "customerName": "ING",
+    "projectName": "2025 CANLI YAYIN PAKETİ",
+    "date": "2025-01-28",
+    "topics": [
+      {
+        "id": "1738674032556",
+        "name": "2025 CANLI YAYIN PAKETİ",
+        "categories": [
+          {
+            "id": "1738674042256",
+            "name": "EKİP & EKİPMAN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738674052240",
+                "name": "Kamera & Kameraman",
+                "unit": "adet",
+                "price": 17000,
+                "days": 5,
+                "quantity": 3,
+                "totalPrice": 255000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674083991",
+                "name": "Kamera Reji & Operatörü",
+                "unit": "adet",
+                "price": 20000,
+                "days": 5,
+                "quantity": 1,
+                "totalPrice": 100000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674098559",
+                "name": "Dijital Canlı Yayın Ekipmanları & Operatörü",
+                "unit": "adet",
+                "price": 20000,
+                "days": 5,
+                "quantity": 1,
+                "totalPrice": 100000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738674126109",
+            "name": "PRODÜKSİYON HARCAMA",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738674140776",
+                "name": "İaşe",
+                "unit": "adet",
+                "price": 800,
+                "days": 5,
+                "quantity": 5,
+                "totalPrice": 20000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674156044",
+                "name": "Ekip & Ekipman Ulaşım",
+                "unit": "adet",
+                "price": 3500,
+                "days": 5,
+                "quantity": 1,
+                "totalPrice": 17500,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 443250,
+    "showTotal": true,
+    "discount": {
+      "type": "amount",
+      "value": 49250
+    },
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738674185855",
+    "createdAt": "2025-02-04T13:03:05.855Z",
+    "updatedAt": "2025-02-04T13:03:05.855Z"
+  },
+  {
+    "customerName": "RAFİNERİ",
+    "projectName": "DOA-İade Makinası Çekimi (3 Şubat)",
+    "date": "2025-01-29",
+    "topics": [
+      {
+        "id": "1738674236796",
+        "name": "DOA-İade Makinası Çekimi (3 Şubat)",
+        "categories": [
+          {
+            "id": "1738674455589",
+            "name": "PRE PRODÜKSİYON",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738674468172",
+                "name": "Ön Hazırlık",
+                "unit": "adet",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738674244113",
+            "name": "EKİP & EKİPMAN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738674255646",
+                "name": "Yönetmen",
+                "unit": "adet",
+                "price": 45000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 45000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674266430",
+                "name": "Prodüktör",
+                "unit": "adet",
+                "price": 30000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 30000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674275367",
+                "name": "Kamera & Kameraman",
+                "unit": "adet",
+                "price": 20000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 20000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674363953",
+                "name": "Kamera Asistanı",
+                "unit": "adet",
+                "price": 8500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 8500,
+                "isCustom": true
+              },
+              {
+                "id": "1738674284934",
+                "name": "Işık Ekip & Ekipman",
+                "unit": "adet",
+                "price": 35000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 35000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674294317",
+                "name": "Sanat Ekip",
+                "unit": "adet",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674303782",
+                "name": "Kamera Ekipmanları",
+                "unit": "adet",
+                "price": 20000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 20000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674316963",
+                "name": "Saç & Makyaj",
+                "unit": "adet",
+                "price": 22000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 22000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674327148",
+                "name": "Prodüksiyon Asistanı",
+                "unit": "adet",
+                "price": 9000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 9000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674338169",
+                "name": "Kostüm",
+                "unit": "adet",
+                "price": 26000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 26000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674351099",
+                "name": "Cast",
+                "unit": "adet",
+                "price": 30000,
+                "days": 1,
+                "quantity": 5,
+                "totalPrice": 150000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738674380799",
+            "name": "POST PRODÜKSİYON",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738674393716",
+                "name": "Color",
+                "unit": "adet",
+                "price": 30000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 30000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674404955",
+                "name": "Online İşlemler",
+                "unit": "adet",
+                "price": 85000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 85000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738674411353",
+            "name": "PRODÜKSİYON HARCAMA",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738674422135",
+                "name": "İaşe",
+                "unit": "adet",
+                "price": 1000,
+                "days": 1,
+                "quantity": 15,
+                "totalPrice": 15000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674434504",
+                "name": "Ekip Ulaşım",
+                "unit": "adet",
+                "price": 24000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 24000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674447856",
+                "name": "Prop",
+                "unit": "adet",
+                "price": 34000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 34000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738674474604",
+            "name": "TELİF",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738674488391",
+                "name": "Cast 1 Yıllık Telif",
+                "unit": "adet",
+                "price": 40000,
+                "days": 1,
+                "quantity": 5,
+                "totalPrice": 200000,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 793500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738674530159",
+    "createdAt": "2025-02-04T13:08:50.159Z",
+    "updatedAt": "2025-02-04T13:08:50.159Z"
+  },
+  {
+    "customerName": "PORSCHE",
+    "projectName": "Macan Lansman Etkinlik Çekimi (25 Şubat)",
+    "date": "2025-01-31",
+    "topics": [
+      {
+        "id": "1738674610875",
+        "name": "Macan Lansman Etkinlik Çekimi (25 Şubat)",
+        "categories": [
+          {
+            "id": "1738674618293",
+            "name": "EKİP & EKİPMAN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738674630592",
+                "name": "Kamera & Kameraman",
+                "unit": "adet",
+                "price": 20000,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 40000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674641392",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "unit": "adet",
+                "price": 18000,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 36000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738674655142",
+            "name": "POST PRODÜKSİYON",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738674672942",
+                "name": "Alanda Kurgu",
+                "unit": "adet",
+                "price": 28000,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 56000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674686511",
+                "name": "Case Video",
+                "unit": "adet",
+                "price": 35000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 35000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738674694110",
+            "name": "PRODÜKSİYON HARCAMA",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738674708228",
+                "name": "İaşe",
+                "unit": "adet",
+                "price": 1000,
+                "days": 1,
+                "quantity": 8,
+                "totalPrice": 8000,
+                "isCustom": true
+              },
+              {
+                "id": "1738674722495",
+                "name": "Ekip Ulaşım",
+                "unit": "adet",
+                "price": 3500,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 7000,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 182000,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738674736713",
+    "createdAt": "2025-02-04T13:12:16.713Z",
+    "updatedAt": "2025-02-04T13:12:16.713Z"
+  },
+  {
+    "customerName": "TURKCELL",
+    "projectName": "Teknofest Kıbrıs (1-4 Mayıs)",
+    "date": "2025-01-31",
+    "topics": [
+      {
+        "id": "1738674838199",
+        "name": "Teknofest Kıbrıs (1-4 Mayıs) Revize",
+        "categories": [
+          {
+            "id": "1738674844828",
+            "name": "EKİP & EKİPMAN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738674869154",
+                "name": "Kamera & Kameraman",
+                "unit": "adet",
+                "price": 15250,
+                "days": 4.5,
+                "quantity": 3,
+                "totalPrice": 205875,
+                "isCustom": true
+              },
+              {
+                "id": "1738674885853",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "unit": "adet",
+                "price": 10600,
+                "days": 4.5,
+                "quantity": 1,
+                "totalPrice": 47700,
+                "isCustom": true
+              },
+              {
+                "id": "1738674901487",
+                "name": "Ses Ekipman",
+                "unit": "adet",
+                "price": 6700,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 26800,
+                "isCustom": true
+              },
+              {
+                "id": "1738674921004",
+                "name": "Drone",
+                "unit": "adet",
+                "price": 16500,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 66000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738674927971",
+            "name": "POST PRODÜKSİYON",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738674949537",
+                "name": "Alan Kurgu",
+                "unit": "adet",
+                "price": 26300,
+                "days": 4.5,
+                "quantity": 2,
+                "totalPrice": 236700,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738674957204",
+            "name": "PRODÜKSİYON HARCAMA",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738674973306",
+                "name": "İaşe",
+                "unit": "adet",
+                "price": 1750,
+                "days": 4.5,
+                "quantity": 7,
+                "totalPrice": 55125,
+                "isCustom": true
+              },
+              {
+                "id": "1738674990839",
+                "name": "Konaklama",
+                "unit": "adet",
+                "price": 6000,
+                "days": 4,
+                "quantity": 6,
+                "totalPrice": 144000,
+                "isCustom": true
+              },
+              {
+                "id": "1738675008722",
+                "name": "Ulaşım(Uçak)",
+                "unit": "adet",
+                "price": 5000,
+                "days": 2,
+                "quantity": 6,
+                "totalPrice": 60000,
+                "isCustom": true
+              },
+              {
+                "id": "1738675025907",
+                "name": "Ulaşım Şehir İçi",
+                "unit": "adet",
+                "price": 22000,
+                "days": 5,
+                "quantity": 1,
+                "totalPrice": 110000,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 952200,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Işıl Yetişkin",
+    "id": "1738675064278",
+    "createdAt": "2025-02-04T13:17:44.278Z",
+    "updatedAt": "2025-02-04T13:17:44.278Z"
+  },
+  {
+    "customerName": "HEPSİBURADA",
+    "projectName": "Zorlu Avm Çekim (25 Ocak)\t",
+    "date": "2025-01-16",
+    "topics": [
+      {
+        "id": "1738675267523",
+        "name": "Zorlu Avm Çekim (25 Ocak)",
+        "categories": [
+          {
+            "id": "1738675333003",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738675337505",
+                "name": "Kamera & Kameraman",
+                "price": 16000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 16000
+              },
+              {
+                "id": "1738675341389",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 16000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 16000
+              }
+            ]
+          },
+          {
+            "id": "1738675344203",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738675348422",
+                "name": "Alanda Kurgu",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000
+              }
+            ]
+          },
+          {
+            "id": "1738675352370",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738675366171",
+                "name": "İaşe",
+                "price": 750,
+                "days": 1,
+                "quantity": 4,
+                "totalPrice": 3000
+              },
+              {
+                "id": "1738675371189",
+                "name": "Ekip Ulaşım",
+                "price": 2500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 2500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 62500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Faturalandı",
+    "createdBy": "Semih Kalkan",
+    "id": "1738675378598",
+    "createdAt": "2025-02-04T13:22:58.598Z",
+    "updatedAt": "2025-02-04T14:53:15.424Z"
+  },
+  {
+    "customerName": "BORUSAN",
+    "projectName": "BMW 2 Serisi Grand Coupe Canlı Yayın",
+    "date": "2025-01-17",
+    "topics": [
+      {
+        "id": "1738675516874",
+        "name": "BMW 2 Serisi Grand Coupe Canlı Yayın",
+        "categories": [
+          {
+            "id": "1738675519802",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738675527990",
+                "name": "Kamera & Kameraman",
+                "price": 13000,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 26000
+              }
+            ]
+          },
+          {
+            "id": "1738675572806",
+            "name": "CANLI YAYIN",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738675587123",
+                "name": "Canlı Yayın Yönetim Sistemi",
+                "unit": "adet",
+                "price": 50000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 50000,
+                "isCustom": true
+              },
+              {
+                "id": "1738675600488",
+                "name": "Etkinlik Kayıt Sistemi",
+                "unit": "adet",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000,
+                "isCustom": true
+              },
+              {
+                "id": "1738675614590",
+                "name": "Canlı Yayın Tasarımı",
+                "unit": "adet",
+                "price": 7500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 7500,
+                "isCustom": true
+              },
+              {
+                "id": "1738675634473",
+                "name": "2 Kameralı Reji & Yönetmen",
+                "unit": "adet",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000,
+                "isCustom": true
+              },
+              {
+                "id": "1738675650440",
+                "name": "Bilgisayar",
+                "unit": "adet",
+                "price": 5000,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 10000,
+                "isCustom": true
+              },
+              {
+                "id": "1738675666273",
+                "name": "Sunum Yönetimi",
+                "unit": "adet",
+                "price": 10000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 10000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738675534587",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738675552690",
+                "name": "İaşe",
+                "price": 750,
+                "days": 1,
+                "quantity": 7,
+                "totalPrice": 5250
+              },
+              {
+                "id": "1738675559439",
+                "name": "Ekip Ulaşım",
+                "price": 3000,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 6000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 154750,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Semih Kalkan",
+    "id": "1738675703968",
+    "createdAt": "2025-02-04T13:28:23.968Z",
+    "updatedAt": "2025-02-04T13:28:23.968Z"
+  },
+  {
+    "customerName": "GARANTİ BBVA",
+    "projectName": "TAMİ ÇEKİMLERİ (5 adet)",
+    "date": "2025-01-17",
+    "topics": [
+      {
+        "id": "1738675786005",
+        "name": "TAMİ ÇEKİMLERİ (5 Adet)",
+        "categories": [
+          {
+            "id": "1738675789739",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738675795539",
+                "name": "Prodüktör",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000
+              },
+              {
+                "id": "1738675807725",
+                "name": "Kamera & Kameraman",
+                "price": 12500,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 25000
+              },
+              {
+                "id": "1738675837206",
+                "name": "Işık Ekipman",
+                "price": 10000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 10000
+              },
+              {
+                "id": "1738675840873",
+                "name": "Ses Ekipman",
+                "price": 6000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 6000
+              }
+            ]
+          },
+          {
+            "id": "1738675845138",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738675849174",
+                "name": "Kurgu",
+                "price": 16000,
+                "days": 1,
+                "quantity": 5,
+                "totalPrice": 80000
+              }
+            ]
+          },
+          {
+            "id": "1738675853820",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738675862107",
+                "name": "İaşe",
+                "price": 750,
+                "days": 1,
+                "quantity": 4,
+                "totalPrice": 3000
+              },
+              {
+                "id": "1738675870441",
+                "name": "Ekip Ulaşım",
+                "price": 2500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 2500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 134425,
+    "showTotal": true,
+    "discount": {
+      "type": "percentage",
+      "value": 5
+    },
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Onaylı",
+    "createdBy": "Semih Kalkan",
+    "id": "1738675916291",
+    "createdAt": "2025-02-04T13:31:56.292Z",
+    "updatedAt": "2025-02-04T14:56:48.400Z"
+  },
+  {
+    "customerName": "GARANTİ BBVA",
+    "projectName": "5 Taş Projesi (Tek Gün)",
+    "date": "2025-01-08",
+    "topics": [
+      {
+        "id": "1738676294566",
+        "name": "5 Taş Projesi (Tek Gün)",
+        "categories": [
+          {
+            "id": "1738676305330",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738676309632",
+                "name": "Prodüktör",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000
+              },
+              {
+                "id": "1738676313816",
+                "name": "Kamera & Kameraman",
+                "price": 12500,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 25000
+              },
+              {
+                "id": "1738676322016",
+                "name": "Işık Ekipman",
+                "price": 10000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 10000
+              },
+              {
+                "id": "1738676325065",
+                "name": "Ses Ekipman",
+                "price": 6000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 6000
+              }
+            ]
+          },
+          {
+            "id": "1738676340328",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738676356366",
+                "name": "İaşe",
+                "price": 750,
+                "days": 1,
+                "quantity": 4,
+                "totalPrice": 3000
+              },
+              {
+                "id": "1738676361616",
+                "name": "Ekip Ulaşım",
+                "price": 2500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 2500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 61500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Onaylı",
+    "createdBy": "Semih Kalkan",
+    "id": "1738676451016",
+    "createdAt": "2025-02-04T13:40:51.016Z",
+    "updatedAt": "2025-02-04T14:58:53.529Z"
+  },
+  {
+    "customerName": "GARANTİ BBVA",
+    "projectName": "5 Taş Projesi (Kurgu)",
+    "date": "2025-01-23",
+    "topics": [
+      {
+        "id": "1738676528900",
+        "name": "5 Taş Projesi (Kurgu)",
+        "categories": [
+          {
+            "id": "1738676531544",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738676534664",
+                "name": "Kurgu",
+                "price": 16000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 16000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 16000,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Onaylı",
+    "createdBy": "Semih Kalkan",
+    "id": "1738676546174",
+    "createdAt": "2025-02-04T13:42:26.174Z",
+    "updatedAt": "2025-02-04T14:59:07.096Z"
+  },
+  {
+    "customerName": "ÜLKER",
+    "projectName": "8 Mart Kadınlar Günü Filmi\t",
+    "date": "2025-01-24",
+    "topics": [
+      {
+        "id": "1738677291660",
+        "name": "8 Mart Kadınlar Günü Filmi",
+        "categories": [
+          {
+            "id": "1738677687353",
+            "name": "ÖN HAZIRLIK",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738677697786",
+                "name": "Metin Yazımı",
+                "unit": "adet",
+                "price": 30000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 30000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738677293920",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738677307243",
+                "name": "Yönetmen",
+                "unit": "adet",
+                "price": 70000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 70000,
+                "isCustom": true
+              },
+              {
+                "id": "1738677317558",
+                "name": "Prodüktör",
+                "price": 17000,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 68000
+              },
+              {
+                "id": "1738677349742",
+                "name": "Görüntü Yönetmeni",
+                "unit": "adet",
+                "price": 15000,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 60000,
+                "isCustom": true
+              },
+              {
+                "id": "1738677362876",
+                "name": "Işık Ekip & Ekipman",
+                "unit": "adet",
+                "price": 10000,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 40000,
+                "isCustom": true
+              },
+              {
+                "id": "1738677373873",
+                "name": "Ses Ekipman",
+                "unit": "adet",
+                "price": 6000,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 24000,
+                "isCustom": true
+              },
+              {
+                "id": "1738677395624",
+                "name": "Prodüksiyon Ekibi",
+                "unit": "adet",
+                "price": 9000,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 36000,
+                "isCustom": true
+              },
+              {
+                "id": "1738677398408",
+                "name": "Kamera Asistanı",
+                "unit": "adet",
+                "price": 7000,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 28000,
+                "isCustom": true
+              },
+              {
+                "id": "1738677409058",
+                "name": "Kamera Ekipmanları",
+                "unit": "adet",
+                "price": 15000,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 60000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738677471571",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738677475324",
+                "name": "Kurgu",
+                "price": 20000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 20000
+              },
+              {
+                "id": "1738677479990",
+                "name": "Color",
+                "unit": "adet",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738677494152",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738677521789",
+                "name": "İaşe",
+                "price": 1000,
+                "days": 4,
+                "quantity": 8,
+                "totalPrice": 32000
+              },
+              {
+                "id": "1738677532004",
+                "name": "Ekip Ulaşım (Giresun - Uçak)\t",
+                "price": 3000,
+                "days": 7,
+                "quantity": 2,
+                "totalPrice": 42000
+              },
+              {
+                "id": "1738677535840",
+                "name": "Ekip Ulaşım (Şehir dışı araç)\t",
+                "price": 15000,
+                "days": 2,
+                "quantity": 1,
+                "totalPrice": 30000
+              },
+              {
+                "id": "1738677538772",
+                "name": "Konaklama (Giresun)\t",
+                "price": 3000,
+                "days": 1,
+                "quantity": 8,
+                "totalPrice": 24000
+              },
+              {
+                "id": "1738677581588",
+                "name": "Ekip Ulaşım (Ankara)\t",
+                "price": 20000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 20000
+              },
+              {
+                "id": "1738677629019",
+                "name": "Ekip - Ekipman Ulaşım İstanbul\t",
+                "price": 8000,
+                "days": 2,
+                "quantity": 1,
+                "totalPrice": 16000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 625000,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Semih Kalkan",
+    "id": "1738677910079",
+    "createdAt": "2025-02-04T14:05:10.079Z",
+    "updatedAt": "2025-02-04T14:05:10.079Z"
+  },
+  {
+    "id": "1738678048639",
+    "customerName": "ÜLKER",
+    "projectName": "8 Mart Kadınlar Günü Filmi\t (Revize)",
+    "date": "2025-01-24",
+    "topics": [
+      {
+        "id": "1738677291660",
+        "name": "8 Mart Kadınlar Günü Filmi",
+        "categories": [
+          {
+            "id": "1738677687353",
+            "name": "ÖN HAZIRLIK",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738677697786",
+                "name": "Metin Yazımı",
+                "unit": "adet",
+                "price": 30000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 30000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738677293920",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738677307243",
+                "name": "Yönetmen",
+                "unit": "adet",
+                "price": 70000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 70000,
+                "isCustom": true
+              },
+              {
+                "id": "1738677317558",
+                "name": "Prodüktör",
+                "price": 17000,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 68000
+              },
+              {
+                "id": "1738677349742",
+                "name": "Görüntü Yönetmeni",
+                "unit": "adet",
+                "price": 15000,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 60000,
+                "isCustom": true
+              },
+              {
+                "id": "1738677362876",
+                "name": "Işık Ekip & Ekipman",
+                "unit": "adet",
+                "price": 10000,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 40000,
+                "isCustom": true
+              },
+              {
+                "id": "1738677373873",
+                "name": "Ses Ekipman",
+                "unit": "adet",
+                "price": 6000,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 24000,
+                "isCustom": true
+              },
+              {
+                "id": "1738677395624",
+                "name": "Prodüksiyon Ekibi",
+                "unit": "adet",
+                "price": 9000,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 36000,
+                "isCustom": true
+              },
+              {
+                "id": "1738677398408",
+                "name": "Kamera Asistanı",
+                "unit": "adet",
+                "price": 7000,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 28000,
+                "isCustom": true
+              },
+              {
+                "id": "1738677409058",
+                "name": "Kamera Ekipmanları",
+                "unit": "adet",
+                "price": 15000,
+                "days": 4,
+                "quantity": 1,
+                "totalPrice": 60000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738677471571",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738677475324",
+                "name": "Kurgu",
+                "price": 20000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 20000
+              },
+              {
+                "id": "1738677479990",
+                "name": "Color",
+                "unit": "adet",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738677494152",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738677521789",
+                "name": "İaşe",
+                "price": 1000,
+                "days": 4,
+                "quantity": 8,
+                "totalPrice": 32000
+              },
+              {
+                "id": "1738677532004",
+                "name": "Ekip Ulaşım (Giresun - Uçak)\t",
+                "price": 3000,
+                "days": 7,
+                "quantity": 2,
+                "totalPrice": 42000
+              },
+              {
+                "id": "1738677535840",
+                "name": "Ekip Ulaşım (Şehir dışı araç)\t",
+                "price": 15000,
+                "days": 2,
+                "quantity": 1,
+                "totalPrice": 30000
+              },
+              {
+                "id": "1738677538772",
+                "name": "Konaklama (Giresun)\t",
+                "price": 3000,
+                "days": 1,
+                "quantity": 8,
+                "totalPrice": 24000
+              },
+              {
+                "id": "1738677581588",
+                "name": "Ekip Ulaşım (Ankara)\t",
+                "price": 20000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 20000
+              },
+              {
+                "id": "1738677629019",
+                "name": "Ekip - Ekipman Ulaşım İstanbul\t",
+                "price": 8000,
+                "days": 2,
+                "quantity": 1,
+                "totalPrice": 16000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 562500,
+    "showTotal": true,
+    "discount": {
+      "type": "percentage",
+      "value": 10
+    },
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Semih Kalkan",
+    "createdAt": "2025-02-04T14:07:28.639Z",
+    "updatedAt": "2025-02-04T14:07:28.639Z"
+  },
+  {
+    "customerName": "GARANTİ BBVA",
+    "projectName": "KGY - Jüri Filmi (12 Şubat)\t",
+    "date": "2025-01-28",
+    "topics": [
+      {
+        "id": "1738678165769",
+        "name": "KGY - Jüri Filmi (12 Şubat)",
+        "categories": [
+          {
+            "id": "1738678279600",
+            "name": "Ön Hazırlık",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738678288383",
+                "name": "Metin Yazımı",
+                "unit": "adet",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738678171531",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738678182652",
+                "name": "Yönetmen",
+                "unit": "adet",
+                "price": 30000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 30000,
+                "isCustom": true
+              },
+              {
+                "id": "1738678193284",
+                "name": "Kamera & Kameraman",
+                "price": 12500,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 25000
+              },
+              {
+                "id": "1738678206167",
+                "name": "Işık Ekipman",
+                "price": 35000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 35000
+              },
+              {
+                "id": "1738678210134",
+                "name": "Ses Ekipman",
+                "price": 6000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 6000
+              }
+            ]
+          },
+          {
+            "id": "1738678222629",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738678225451",
+                "name": "Kurgu",
+                "price": 20000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 20000
+              }
+            ]
+          },
+          {
+            "id": "1738678228914",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738678234250",
+                "name": "İaşe",
+                "price": 750,
+                "days": 1,
+                "quantity": 7,
+                "totalPrice": 5250
+              },
+              {
+                "id": "1738678262133",
+                "name": "Ekip Ulaşım",
+                "price": 2500,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 5000
+              },
+              {
+                "id": "1738678266267",
+                "name": "Ekipman Ulaşım",
+                "price": 12500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 12500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 153750,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Semih Kalkan",
+    "id": "1738678617253",
+    "createdAt": "2025-02-04T14:16:57.253Z",
+    "updatedAt": "2025-02-04T14:16:57.253Z"
+  },
+  {
+    "customerName": "GARANTİ BBVA",
+    "projectName": "KGY - Kategori Filmleri (12 Şubat)\t",
+    "date": "2025-01-28",
+    "topics": [
+      {
+        "id": "1738678675064",
+        "name": "KGY - Kategori Filmleri (12 Şubat)",
+        "categories": [
+          {
+            "id": "1738678679844",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738678684180",
+                "name": "Prodüktör",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000
+              },
+              {
+                "id": "1738678687595",
+                "name": "Kamera & Kameraman",
+                "price": 12500,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 25000
+              },
+              {
+                "id": "1738678695213",
+                "name": "Işık Ekipman",
+                "price": 10000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 10000
+              },
+              {
+                "id": "1738678698579",
+                "name": "Ses Ekipman",
+                "price": 6000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 6000
+              }
+            ]
+          },
+          {
+            "id": "1738678677061",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738678716012",
+                "name": "Kurgu",
+                "price": 16000,
+                "days": 1,
+                "quantity": 5,
+                "totalPrice": 80000
+              }
+            ]
+          },
+          {
+            "id": "1738678723727",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738678749161",
+                "name": "İaşe",
+                "price": 750,
+                "days": 1,
+                "quantity": 4,
+                "totalPrice": 3000
+              },
+              {
+                "id": "1738678752896",
+                "name": "Ekip Ulaşım",
+                "price": 2500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 2500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 141500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Semih Kalkan",
+    "id": "1738678762703",
+    "createdAt": "2025-02-04T14:19:22.703Z",
+    "updatedAt": "2025-02-04T14:19:22.703Z"
+  },
+  {
+    "customerName": "GARANTİ BBVA",
+    "projectName": "KGY - Yarışma Günü (27 Şubat)\t",
+    "date": "2025-01-28",
+    "topics": [
+      {
+        "id": "1738678804363",
+        "name": "KGY - Yarışma Günü (27 Şubat)",
+        "categories": [
+          {
+            "id": "1738678807377",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738678814929",
+                "name": "Prodüktör",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000
+              },
+              {
+                "id": "1738678819313",
+                "name": "Kamera & Kameraman",
+                "price": 12500,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 25000
+              }
+            ]
+          },
+          {
+            "id": "1738678826074",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738678829126",
+                "name": "Kurgu",
+                "price": 16000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 16000
+              },
+              {
+                "id": "1738678832144",
+                "name": "Alanda Kurgu",
+                "price": 18000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 18000
+              }
+            ]
+          },
+          {
+            "id": "1738678841292",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738678847812",
+                "name": "İaşe",
+                "price": 750,
+                "days": 1,
+                "quantity": 5,
+                "totalPrice": 3750
+              },
+              {
+                "id": "1738678865128",
+                "name": "Ekip Ulaşım",
+                "price": 2500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 2500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 80250,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Semih Kalkan",
+    "id": "1738678880140",
+    "createdAt": "2025-02-04T14:21:20.140Z",
+    "updatedAt": "2025-02-04T14:21:20.140Z"
+  },
+  {
+    "customerName": "GARANTİ BBVA",
+    "projectName": "8 Mart Kadınlar Günü Filmi\t",
+    "date": "2025-01-28",
+    "topics": [
+      {
+        "id": "1738678924317",
+        "name": "8 Mart Kadınlar Günü Filmi",
+        "categories": [
+          {
+            "id": "1738679232829",
+            "name": "Ön Hazırlık",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738679241828",
+                "name": "Metin Yazımı",
+                "unit": "adet",
+                "price": 25000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 25000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738678928564",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738678933066",
+                "name": "Yönetmen",
+                "price": 30000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 30000
+              },
+              {
+                "id": "1738678940782",
+                "name": "Kamera & Kameraman",
+                "price": 12500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 12500
+              },
+              {
+                "id": "1738678944282",
+                "name": "Işık Ekipman",
+                "price": 35000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 35000
+              },
+              {
+                "id": "1738678951698",
+                "name": "Ses Ekipman",
+                "price": 6000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 6000
+              }
+            ]
+          },
+          {
+            "id": "1738678994645",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738679001731",
+                "name": "Kurgu",
+                "price": 16000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 16000
+              }
+            ]
+          },
+          {
+            "id": "1738679118046",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738679174194",
+                "name": "İaşe",
+                "price": 750,
+                "days": 1,
+                "quantity": 5,
+                "totalPrice": 3750
+              },
+              {
+                "id": "1738679176694",
+                "name": "Ekip Ulaşım",
+                "price": 2500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 2500
+              },
+              {
+                "id": "1738679195327",
+                "name": "Ekipman Ulaşım",
+                "price": 12500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 12500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 143250,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Semih Kalkan",
+    "id": "1738679296472",
+    "createdAt": "2025-02-04T14:28:16.472Z",
+    "updatedAt": "2025-02-04T14:28:16.472Z"
+  },
+  {
+    "customerName": "GARANTİ BBVA",
+    "projectName": "KGY - Kazanan Filmleri (5 Şehir)\t",
+    "date": "2025-01-28",
+    "topics": [
+      {
+        "id": "1738679349977",
+        "name": "KGY - Kazanan Filmleri (5 Şehir)",
+        "categories": [
+          {
+            "id": "1738679471976",
+            "name": "Ön Hazırlık",
+            "isCustom": true,
+            "services": [
+              {
+                "id": "1738679478491",
+                "name": "Keşif",
+                "unit": "adet",
+                "price": 38750,
+                "days": 1,
+                "quantity": 5,
+                "totalPrice": 193750,
+                "isCustom": true
+              },
+              {
+                "id": "1738679484994",
+                "name": "Metin Yazımı",
+                "unit": "adet",
+                "price": 10000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 10000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738679352808",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738679610925",
+                "name": "Yönetmen",
+                "unit": "adet",
+                "price": 30000,
+                "days": 5,
+                "quantity": 1,
+                "totalPrice": 150000,
+                "isCustom": true
+              },
+              {
+                "id": "1738679618757",
+                "name": "Kamera & Kameraman",
+                "price": 12500,
+                "days": 5,
+                "quantity": 1,
+                "totalPrice": 62500
+              },
+              {
+                "id": "1738679623407",
+                "name": "Işık Ekipman",
+                "price": 35000,
+                "days": 5,
+                "quantity": 1,
+                "totalPrice": 175000
+              },
+              {
+                "id": "1738679627355",
+                "name": "Ses Ekipman",
+                "price": 6000,
+                "days": 5,
+                "quantity": 1,
+                "totalPrice": 30000
+              },
+              {
+                "id": "1738679641756",
+                "name": "Kamera Ekipmanı",
+                "unit": "adet",
+                "price": 12000,
+                "days": 5,
+                "quantity": 1,
+                "totalPrice": 60000,
+                "isCustom": true
+              },
+              {
+                "id": "1738679653473",
+                "name": "Asistan",
+                "unit": "adet",
+                "price": 7000,
+                "days": 5,
+                "quantity": 1,
+                "totalPrice": 35000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738679733332",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738679752837",
+                "name": "Alanda Kurgu",
+                "price": 18000,
+                "days": 1,
+                "quantity": 5,
+                "totalPrice": 90000
+              }
+            ]
+          },
+          {
+            "id": "1738679832075",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738679846774",
+                "name": "İaşe",
+                "unit": "adet",
+                "price": 0,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 0,
+                "isCustom": true
+              },
+              {
+                "id": "1738679858374",
+                "name": "Keşif İaşe",
+                "unit": "adet",
+                "price": 0,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 0,
+                "isCustom": true
+              },
+              {
+                "id": "1738679864889",
+                "name": "Ekip Ulaşım",
+                "price": 0,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 0
+              },
+              {
+                "id": "1738679882840",
+                "name": "Keşif Ekip Ulaşım",
+                "unit": "adet",
+                "price": 0,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 0,
+                "isCustom": true
+              },
+              {
+                "id": "1738679976204",
+                "name": "Ekipman Ulaşım",
+                "unit": "adet",
+                "price": 0,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 0,
+                "isCustom": true
+              },
+              {
+                "id": "1738679981371",
+                "name": "Konaklama",
+                "unit": "adet",
+                "price": 0,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 0,
+                "isCustom": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 806250,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Semih Kalkan",
+    "id": "1738680019325",
+    "createdAt": "2025-02-04T14:40:19.325Z",
+    "updatedAt": "2025-02-04T14:40:19.325Z"
+  },
+  {
+    "id": "1738680136036",
+    "customerName": "GARANTİ BBVA",
+    "projectName": "Demo Day Çekimi (4Şubat) (Revize)",
+    "date": "2025-01-13",
+    "topics": [
+      {
+        "id": "1738665465029",
+        "name": "Demo Day Çekimi (4Şubat)",
+        "categories": [
+          {
+            "id": "1738665490639",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738665495577",
+                "name": "Prodüktör",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000
+              },
+              {
+                "id": "1738665503644",
+                "name": "Kamera & Kameraman",
+                "price": 12500,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 25000
+              },
+              {
+                "id": "1738665510397",
+                "name": "Işık Ekipman",
+                "price": 10000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 10000
+              },
+              {
+                "id": "1738665516630",
+                "name": "Ses Ekipman",
+                "price": 6000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 6000
+              }
+            ]
+          },
+          {
+            "id": "1738665528375",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738665540278",
+                "name": "Kurgu",
+                "price": 16000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 16000
+              }
+            ]
+          },
+          {
+            "id": "1738665599521",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738665603776",
+                "name": "İaşe",
+                "price": 1000,
+                "days": 1,
+                "quantity": 5,
+                "totalPrice": 5000
+              },
+              {
+                "id": "1738665607627",
+                "name": "Ekip Ulaşım",
+                "price": 3500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 3500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 80500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Semih Kalkan",
+    "createdAt": "2025-02-04T14:42:16.036Z",
+    "updatedAt": "2025-02-04T14:42:16.036Z"
+  },
+  {
+    "id": "1738680278485",
+    "customerName": "MINI",
+    "projectName": "DAS 3917 Kayseri (Revize) Gerçekleşen",
+    "date": "2025-01-14",
+    "topics": [
+      {
+        "id": "1738668500615",
+        "name": "DAS 3917 Kayseri",
+        "categories": [
+          {
+            "id": "1738668511778",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738668523048",
+                "name": "Prodüktör",
+                "price": 15000,
+                "days": 2.5,
+                "quantity": 1,
+                "totalPrice": 37500
+              },
+              {
+                "id": "1738668543397",
+                "name": "Kamera & Kameraman",
+                "price": 13000,
+                "days": 2.5,
+                "quantity": 2,
+                "totalPrice": 65000
+              },
+              {
+                "id": "1738668561314",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 12500,
+                "days": 2.5,
+                "quantity": 1,
+                "totalPrice": 31250
+              },
+              {
+                "id": "1738668578597",
+                "name": "Drone & Drone Operatörü",
+                "price": 14000,
+                "days": 2.5,
+                "quantity": 1,
+                "totalPrice": 35000
+              },
+              {
+                "id": "1738668726846",
+                "name": "Asistan",
+                "price": 7000,
+                "days": 2.5,
+                "quantity": 1,
+                "totalPrice": 17500
+              },
+              {
+                "id": "1738668738413",
+                "name": "GoPro",
+                "price": 1250,
+                "days": 2,
+                "quantity": 2,
+                "totalPrice": 5000
+              }
+            ]
+          },
+          {
+            "id": "1738668808259",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738668817595",
+                "name": "Kurgu",
+                "price": 17500,
+                "days": 1,
+                "quantity": 7,
+                "totalPrice": 122500
+              }
+            ]
+          },
+          {
+            "id": "1738668832740",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738668851578",
+                "name": "İaşe",
+                "price": 1000,
+                "days": 2.5,
+                "quantity": 7,
+                "totalPrice": 17500
+              },
+              {
+                "id": "1738668874094",
+                "name": "Konaklama",
+                "unit": "adet",
+                "price": 2500,
+                "days": 2,
+                "quantity": 7,
+                "totalPrice": 35000,
+                "isCustom": true
+              },
+              {
+                "id": "1738669217758",
+                "name": "Ekip Ulaşım (Uçak)",
+                "price": 2750,
+                "days": 2,
+                "quantity": 7,
+                "totalPrice": 38500
+              },
+              {
+                "id": "1738669245140",
+                "name": "Ekip Ulaşım (Şehir İçi)",
+                "price": 15000,
+                "days": 3,
+                "quantity": 1,
+                "totalPrice": 45000
+              },
+              {
+                "id": "1738669262491",
+                "name": "Ekip Ulaşım",
+                "price": 2500,
+                "days": 2,
+                "quantity": 2,
+                "totalPrice": 10000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 459750,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Semih Kalkan",
+    "createdAt": "2025-02-04T14:44:38.485Z",
+    "updatedAt": "2025-02-04T14:44:38.485Z"
+  },
+  {
+    "customerName": "GARANTİ BBVA",
+    "projectName": "GMY Video Çekimi(7 Şubat)\t",
+    "date": "2025-01-31",
+    "topics": [
+      {
+        "id": "1738680333617",
+        "name": "GMY Video Çekimi(7 Şubat)",
+        "categories": [
+          {
+            "id": "1738680336264",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738680339316",
+                "name": "Prodüktör",
+                "price": 15000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 15000
+              },
+              {
+                "id": "1738680343283",
+                "name": "Kamera & Kameraman",
+                "price": 12500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 12500
+              },
+              {
+                "id": "1738680347866",
+                "name": "Işık Ekipman",
+                "price": 10000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 10000
+              },
+              {
+                "id": "1738680353233",
+                "name": "Ses Ekipman",
+                "price": 6000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 6000
+              }
+            ]
+          },
+          {
+            "id": "1738680373646",
+            "name": "Post Prodüksiyon",
+            "services": [
+              {
+                "id": "1738680375914",
+                "name": "Kurgu",
+                "price": 16000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 16000
+              },
+              {
+                "id": "1738680386299",
+                "name": "Altyazı",
+                "unit": "adet",
+                "price": 6000,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 6000,
+                "isCustom": true
+              }
+            ]
+          },
+          {
+            "id": "1738680401063",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738680414847",
+                "name": "İaşe",
+                "price": 750,
+                "days": 1,
+                "quantity": 3,
+                "totalPrice": 2250
+              },
+              {
+                "id": "1738680417131",
+                "name": "Ekip Ulaşım",
+                "price": 2500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 2500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 70250,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Semih Kalkan",
+    "id": "1738680435981",
+    "createdAt": "2025-02-04T14:47:15.981Z",
+    "updatedAt": "2025-02-04T14:47:41.063Z"
+  },
+  {
+    "customerName": "GARANTİ BBVA",
+    "projectName": "Ödül Fotoğraf Çekimi",
+    "date": "2025-02-03",
+    "topics": [
+      {
+        "id": "1738680541447",
+        "name": "Ödül Fotoğraf Çekimi",
+        "categories": [
+          {
+            "id": "1738680544112",
+            "name": "Ekip & Ekipman",
+            "services": [
+              {
+                "id": "1738680548829",
+                "name": "Fotoğraf & Fotoğrafçı",
+                "price": 12500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 12500
+              }
+            ]
+          },
+          {
+            "id": "1738680562176",
+            "name": "Prodüksiyon Harcama",
+            "services": [
+              {
+                "id": "1738680567113",
+                "name": "İaşe",
+                "price": 750,
+                "days": 1,
+                "quantity": 2,
+                "totalPrice": 1500
+              },
+              {
+                "id": "1738680571813",
+                "name": "Ekip Ulaşım",
+                "price": 2500,
+                "days": 1,
+                "quantity": 1,
+                "totalPrice": 2500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "totalAmount": 16500,
+    "showTotal": true,
+    "terms": "Teklif Şartları:\n1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.\n2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.\n3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.",
+    "status": "Taslak",
+    "createdBy": "Semih Kalkan",
+    "id": "1738680581607",
+    "createdAt": "2025-02-04T14:49:41.607Z",
+    "updatedAt": "2025-02-04T14:49:41.607Z"
+  }
+]

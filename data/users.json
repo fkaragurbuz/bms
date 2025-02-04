@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "email": "admin@bebo.com",
+    "name": "Admin",
+    "password": "$2b$10$QMl6ac3437xUCSS1uoc8dOHfg8s3/dy7mQ8p2we4msjP8Pur90xfy",
+    "role": "ADMIN",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "1738075583846",
+    "email": "test@test.com",
+    "name": "test test",
+    "password": "$2b$10$QMl6ac3437xUCSS1uoc8dOHfg8s3/dy7mQ8p2we4msjP8Pur90xfy",
+    "role": "USER",
+    "createdAt": "2025-01-28T14:46:23.846Z",
+    "updatedAt": "2025-01-28T14:46:23.846Z"
+  },
+  {
+    "id": "1738076092007",
+    "email": "fati@fati.com",
+    "name": "fati test",
+    "password": "$2b$10$QMl6ac3437xUCSS1uoc8dOHfg8s3/dy7mQ8p2we4msjP8Pur90xfy",
+    "role": "ADMIN",
+    "createdAt": "2025-01-28T14:54:52.007Z",
+    "updatedAt": "2025-01-28T14:54:52.007Z"
+  },
+  {
+    "id": "1738662246420",
+    "email": "semih@bebo.com.tr",
+    "name": "Semih Kalkan",
+    "password": "$2b$10$dY9PCxLkgnUMZdlrSWTj2.P6sdEvC6j/NGRdGvmYYazhfNM.U6dBy",
+    "role": "USER",
+    "createdAt": "2025-02-04T09:44:06.420Z",
+    "updatedAt": "2025-02-04T09:44:06.420Z"
+  },
+  {
+    "id": "1738662269109",
+    "email": "isil@bebo.com.tr",
+    "name": "Işıl Yetişkin",
+    "password": "$2b$10$EU8Eqor.KRAokoeYyybrluSKmugSfupYHLtian8z/iU4g/1bokeXO",
+    "role": "USER",
+    "createdAt": "2025-02-04T09:44:29.109Z",
+    "updatedAt": "2025-02-04T09:44:29.109Z"
+  }
+]

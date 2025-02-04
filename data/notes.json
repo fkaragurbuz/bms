@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1738607206270",
+    "customerName": "deneme olsun 2",
+    "subject": "deneme olsun2",
+    "content": "asdsadasd",
+    "date": "2025-02-03",
+    "createdBy": "fati@fati.com",
+    "createdAt": "2025-02-03T18:26:46.270Z",
+    "updatedAt": "2025-02-03T19:21:59.233Z",
+    "files": [
+      {
+        "name": "Not-deneme-03.02.2025.docx",
+        "path": "/api/notes/1738607206270/files/Not-deneme-03.02.2025.docx"
+      }
+    ]
+  }
+]

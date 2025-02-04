@@ -1,0 +1,165 @@
+
+> hizmet-teklif@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.1.4
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.21:3000
+
+ ✓ Starting...
+ ✓ Ready in 2s
+ ○ Compiling /proposals/all ...
+ ✓ Compiled /proposals/all in 1146ms (662 modules)
+ GET /proposals/all 200 in 1332ms
+ ○ Compiling /api/proposal-notes ...
+ ✓ Compiled /api/proposal-notes in 602ms (670 modules)
+GET isteği alındı: /api/proposals
+Teklifler dosyadan okunuyor...
+Dosya yolu: /Users/fatihkaragurbuz/Desktop/hizmet-teklif/data/proposals.json
+ GET /api/proposal-notes 200 in 730ms
+Okunan içerik: [
+  {
+    "customerName": "TEST MÜŞTERİ 75",
+    "projectName": "DMDE",
+    "date": "2025-01-27",
+  
+32 adet teklif başarıyla okundu
+Teklifler tarihe göre sıralandı
+ GET /api/proposals 200 in 734ms
+ GET /proposals/all 200 in 51ms
+ GET /proposals/all 200 in 64ms
+GET isteği alındı: /api/proposals
+Teklifler dosyadan okunuyor...
+Dosya yolu: /Users/fatihkaragurbuz/Desktop/hizmet-teklif/data/proposals.json
+Okunan içerik: [
+  {
+    "customerName": "TEST MÜŞTERİ 75",
+    "projectName": "DMDE",
+    "date": "2025-01-27",
+  
+32 adet teklif başarıyla okundu
+Teklifler tarihe göre sıralandı
+ GET /api/proposals 200 in 17ms
+ GET /api/proposal-notes 200 in 19ms
+ ✓ Compiled /dashboard in 278ms (658 modules)
+ GET /dashboard 200 in 348ms
+ ✓ Compiled /proposals in 244ms (682 modules)
+ GET /proposals 200 in 316ms
+ ✓ Compiled /api/proposals in 69ms (380 modules)
+GET isteği alındı: /api/proposals
+Teklifler dosyadan okunuyor...
+GET isteği alındı: /api/proposals
+Teklifler dosyadan okunuyor...
+Dosya yolu: /Users/fatihkaragurbuz/Desktop/hizmet-teklif/data/proposals.json
+Dosya yolu: /Users/fatihkaragurbuz/Desktop/hizmet-teklif/data/proposals.json
+Okunan içerik: [
+  {
+    "customerName": "TEST MÜŞTERİ 75",
+    "projectName": "DMDE",
+    "date": "2025-01-27",
+  
+32 adet teklif başarıyla okundu
+Teklifler tarihe göre sıralandı
+ GET /api/proposals 200 in 117ms
+Okunan içerik: [
+  {
+    "customerName": "TEST MÜŞTERİ 75",
+    "projectName": "DMDE",
+    "date": "2025-01-27",
+  
+32 adet teklif başarıyla okundu
+Teklifler tarihe göre sıralandı
+ GET /api/proposals 200 in 119ms
+ ✓ Compiled /proposals/add in 294ms (739 modules)
+ GET /proposals/add 200 in 353ms
+ ✓ Compiled /api/ratecards in 111ms (742 modules)
+ GET /api/ratecards 200 in 133ms
+ GET /api/ratecards 200 in 134ms
+Dosya yolu: /Users/fatihkaragurbuz/Desktop/hizmet-teklif/data/proposals.json
+Okunan içerik: [
+  {
+    "customerName": "TEST MÜŞTERİ 75",
+    "projectName": "DMDE",
+    "date": "2025-01-27",
+  
+ POST /api/proposals 200 in 23ms
+ ○ Compiling /proposals/[id] ...
+ ✓ Compiled /proposals/[id] in 591ms (873 modules)
+ GET /proposals/1738521165440 200 in 1035ms
+ ✓ Compiled /api/proposals/[id] in 207ms (875 modules)
+Error: Route "/api/proposals/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at id (app/api/proposals/[id]/route.ts:51:44)
+  49 | export async function GET(request: Request, { params }: { params: { id: string } }) {
+  50 |   try {
+> 51 |     const id = await Promise.resolve(params.id)
+     |                                            ^
+  52 |     const proposals = await readProposals()
+  53 |     const proposal = proposals.find((p: any) => p.id === id)
+  54 |     
+Error: Route "/api/proposals/[id]" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at id (app/api/proposals/[id]/route.ts:51:44)
+  49 | export async function GET(request: Request, { params }: { params: { id: string } }) {
+  50 |   try {
+> 51 |     const id = await Promise.resolve(params.id)
+     |                                            ^
+  52 |     const proposals = await readProposals()
+  53 |     const proposal = proposals.find((p: any) => p.id === id)
+  54 |     
+ GET /api/proposals/1738521165440 200 in 641ms
+ GET /api/proposals/1738521165440 200 in 639ms
+ ✓ Compiled /api/logo in 139ms (877 modules)
+ GET /api/logo 200 in 156ms
+ GET /api/logo 200 in 157ms
+ GET /proposals 200 in 31ms
+GET isteği alındı: /api/proposals
+Teklifler dosyadan okunuyor...
+Dosya yolu: /Users/fatihkaragurbuz/Desktop/hizmet-teklif/data/proposals.json
+Okunan içerik: [
+  {
+    "customerName": "TEST MÜŞTERİ 75",
+    "projectName": "DMDE",
+    "date": "2025-01-27",
+  
+33 adet teklif başarıyla okundu
+Teklifler tarihe göre sıralandı
+ GET /api/proposals 200 in 11ms
+GET isteği alındı: /api/proposals
+Teklifler dosyadan okunuyor...
+Dosya yolu: /Users/fatihkaragurbuz/Desktop/hizmet-teklif/data/proposals.json
+Okunan içerik: [
+  {
+    "customerName": "TEST MÜŞTERİ 75",
+    "projectName": "DMDE",
+    "date": "2025-01-27",
+  
+33 adet teklif başarıyla okundu
+Teklifler tarihe göre sıralandı
+ GET /api/proposals 200 in 14ms
+ GET /proposals/all 200 in 19ms
+GET isteği alındı: /api/proposals
+Teklifler dosyadan okunuyor...
+Dosya yolu: /Users/fatihkaragurbuz/Desktop/hizmet-teklif/data/proposals.json
+Okunan içerik: [
+  {
+    "customerName": "TEST MÜŞTERİ 75",
+    "projectName": "DMDE",
+    "date": "2025-01-27",
+  
+33 adet teklif başarıyla okundu
+Teklifler tarihe göre sıralandı
+ GET /api/proposals 200 in 12ms
+ ✓ Compiled /api/proposal-notes in 218ms (421 modules)
+GET isteği alındı: /api/proposals
+Teklifler dosyadan okunuyor...
+Dosya yolu: /Users/fatihkaragurbuz/Desktop/hizmet-teklif/data/proposals.json
+Okunan içerik: [
+  {
+    "customerName": "TEST MÜŞTERİ 75",
+    "projectName": "DMDE",
+    "date": "2025-01-27",
+  
+33 adet teklif başarıyla okundu
+Teklifler tarihe göre sıralandı
+ GET /api/proposals 200 in 361ms
+ GET /api/proposal-notes 200 in 368ms
+ GET /api/proposal-notes 200 in 367ms

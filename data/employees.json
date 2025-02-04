@@ -1,0 +1,21 @@
+[
+  {
+    "id": "1738610922393",
+    "fullName": "asdasd",
+    "tcNo": "64753212543",
+    "birthDate": "1995-12-11",
+    "sgkNo": "yterwtery454",
+    "startDate": "2025-02-03",
+    "isActive": true,
+    "phone": "05423345678",
+    "documents": [
+      {
+        "id": "1738610939774mnw4o06k9",
+        "name": "Not-deneme-03.02.20215.docx",
+        "path": "Not-deneme-03.02.20215.docx",
+        "uploadDate": "2025-02-03T19:28:59.774Z"
+      }
+    ],
+    "endDate": null
+  }
+]

@@ -1,0 +1,489 @@
+[
+  {
+    "id": "1738595212521",
+    "customerName": "HEPSİBURADA",
+    "startDate": "1970-01-01T00:00:45.658Z",
+    "endDate": "1970-01-01T00:00:45.716Z",
+    "categories": [
+      {
+        "id": "17385952125212rzy2aisj",
+        "name": "Ekip & Ekipman",
+        "services": [
+          {
+            "id": "173859521252145b4vej6w",
+            "name": "Prodüktör",
+            "price": 17000
+          },
+          {
+            "id": "173859521252157wf3dcv3",
+            "name": "Kamera & Kameraman",
+            "price": 16000
+          },
+          {
+            "id": "1738595212521nb07isezi",
+            "name": "Fotoğraf & Fotoğrafçı",
+            "price": 16000
+          }
+        ]
+      },
+      {
+        "id": "1738595212521mstmnawb5",
+        "name": "Post Prodüksiyon",
+        "services": [
+          {
+            "id": "1738595212521t1rue6dtl",
+            "name": "Alanda Kurgu",
+            "price": 25000
+          }
+        ]
+      },
+      {
+        "id": "173859521252127i1vxf2l",
+        "name": "Prodüksiyon Harcama",
+        "services": [
+          {
+            "id": "17385952125210oe3t4bjx",
+            "name": "İaşe",
+            "price": 750
+          },
+          {
+            "id": "17385952125217ypax74wr",
+            "name": "Ekip Ulaşım",
+            "price": 2500
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-03T15:06:52.521Z",
+    "updatedAt": "2025-02-03T15:06:52.521Z"
+  },
+  {
+    "id": "1738595221272",
+    "customerName": "GARANTİ BBVA",
+    "startDate": "1970-01-01T00:00:45.658Z",
+    "endDate": "1970-01-01T00:00:45.717Z",
+    "categories": [
+      {
+        "id": "1738595221272ly97gq4k5",
+        "name": "Ekip & Ekipman",
+        "services": [
+          {
+            "id": "1738595221272pun4k7uga",
+            "name": "Prodüktör",
+            "price": 15000
+          },
+          {
+            "id": "17385952212720ds7s3kev",
+            "name": "Kamera & Kameraman",
+            "price": 12500
+          },
+          {
+            "id": "17385952212724h725p690",
+            "name": "Fotoğraf & Fotoğrafçı",
+            "price": 12500
+          },
+          {
+            "id": "173859522127228pjl8n7k",
+            "name": "Drone & Drone Operatörü",
+            "price": 15000
+          },
+          {
+            "id": "1738595221272pnk84jvv6",
+            "name": "FPV",
+            "price": 27000
+          },
+          {
+            "id": "1738595221272j7cbzrh2j",
+            "name": "Işık Ekipman",
+            "price": 10000
+          },
+          {
+            "id": "1738595221272iq8nwivli",
+            "name": "Ses Ekipman",
+            "price": 6000
+          },
+          {
+            "id": "1738595221272y1w4pz4wx",
+            "name": "GoPro",
+            "price": 1250
+          },
+          {
+            "id": "1738595221272lnpx4gsc8",
+            "name": "Retouch",
+            "price": 600
+          },
+          {
+            "id": "1738595221272l3dfe8fko",
+            "name": "Mobil İnternet",
+            "price": 6000
+          },
+          {
+            "id": "17385952212720ldv9o3mv",
+            "name": "Fon",
+            "price": 3000
+          }
+        ]
+      },
+      {
+        "id": "1738595221272d8amkr8ym",
+        "name": "Post Prodüksiyon",
+        "services": [
+          {
+            "id": "1738595221272f6agd7qj5",
+            "name": "Kurgu",
+            "price": 16000
+          },
+          {
+            "id": "1738595221272ng8b5fyqj",
+            "name": "Alanda Kurgu",
+            "price": 18000
+          }
+        ]
+      },
+      {
+        "id": "1738595221272roml0830l",
+        "name": "Prodüksiyon Harcama",
+        "services": [
+          {
+            "id": "173859522127295hgufhcd",
+            "name": "İaşe",
+            "price": 750
+          },
+          {
+            "id": "1738595221272754ie1v7a",
+            "name": "Ekip Ulaşım",
+            "price": 2500
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-03T15:07:01.272Z",
+    "updatedAt": "2025-02-03T15:07:01.272Z"
+  },
+  {
+    "id": "1738595230613",
+    "customerName": "BORUSAN",
+    "startDate": "1970-01-01T00:00:45.658Z",
+    "endDate": "1970-01-01T00:00:45.689Z",
+    "categories": [
+      {
+        "id": "173859523061355xpnnbpy",
+        "name": "Ekip & Ekipman",
+        "services": [
+          {
+            "id": "17385952306136qa2e43z5",
+            "name": "Prodüktör",
+            "price": 16000
+          },
+          {
+            "id": "17385952306138pznlz5ch",
+            "name": "Kamera & Kameraman",
+            "price": 13000
+          },
+          {
+            "id": "1738595230613x4mpwc5xz",
+            "name": "Fotoğraf & Fotoğrafçı",
+            "price": 12500
+          },
+          {
+            "id": "1738595230613hn8j9xscm",
+            "name": "Drone & Drone Operatörü",
+            "price": 15000
+          },
+          {
+            "id": "1738595230613zrkjyl9it",
+            "name": "FPV",
+            "price": 25000
+          },
+          {
+            "id": "17385952306138nwe9ffvt",
+            "name": "Işık Ekipman",
+            "price": 15000
+          },
+          {
+            "id": "1738595230613rugfx9ia6",
+            "name": "Ses Ekipman",
+            "price": 6000
+          }
+        ]
+      },
+      {
+        "id": "1738595230613h5fqfdmgc",
+        "name": "Post Prodüksiyon",
+        "services": [
+          {
+            "id": "1738595230613v33tb0xgj",
+            "name": "Kurgu",
+            "price": 18000
+          },
+          {
+            "id": "1738595230613mhzktue3i",
+            "name": "Alanda Kurgu",
+            "price": 21000
+          }
+        ]
+      },
+      {
+        "id": "17385952306139j8qbtij1",
+        "name": "Prodüksiyon Harcama",
+        "services": [
+          {
+            "id": "1738595230613qe5u5rb3c",
+            "name": "İaşe",
+            "price": 750
+          },
+          {
+            "id": "1738595230613601ryxcrc",
+            "name": "Ekip Ulaşım",
+            "price": 3000
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-03T15:07:10.613Z",
+    "updatedAt": "2025-02-03T15:07:10.613Z"
+  },
+  {
+    "id": "1738595258151",
+    "customerName": "MINI",
+    "startDate": "1970-01-01T00:00:45.658Z",
+    "endDate": "1970-01-01T00:00:45.689Z",
+    "categories": [
+      {
+        "id": "17385952581517k28eqqrl",
+        "name": "Ekip & Ekipman",
+        "services": [
+          {
+            "id": "1738595258151siy0vqwq9",
+            "name": "Prodüktör",
+            "price": 15000
+          },
+          {
+            "id": "1738595258151brby4q9nr",
+            "name": "Kamera & Kameraman",
+            "price": 13000
+          },
+          {
+            "id": "1738595258151bezxq2slp",
+            "name": "Fotoğraf & Fotoğrafçı",
+            "price": 12500
+          },
+          {
+            "id": "1738595258151ixbo7pmxr",
+            "name": "Drone & Drone Operatörü",
+            "price": 14000
+          },
+          {
+            "id": "1738595258151hw6ryk12i",
+            "name": "FPV",
+            "price": 25000
+          },
+          {
+            "id": "1738595258151fjw1iwtqy",
+            "name": "Işık Ekipman",
+            "price": 15000
+          },
+          {
+            "id": "17385952581512gnds5064",
+            "name": "Ses Ekipman",
+            "price": 6000
+          },
+          {
+            "id": "1738595258151evc64wymv",
+            "name": "GoPro",
+            "price": 1250
+          },
+          {
+            "id": "1738595258151m47eeyknw",
+            "name": "Asistan",
+            "price": 7000
+          }
+        ]
+      },
+      {
+        "id": "17385952581512f6b07n8f",
+        "name": "Post Prodüksiyon",
+        "services": [
+          {
+            "id": "17385952581515ky7vam8m",
+            "name": "Kurgu",
+            "price": 17500
+          },
+          {
+            "id": "17385952581515l5fn3dw1",
+            "name": "Alanda Kurgu",
+            "price": 21000
+          }
+        ]
+      },
+      {
+        "id": "1738595258151c1wy4sm0p",
+        "name": "Prodüksiyon Harcama",
+        "services": [
+          {
+            "id": "1738595258151371rndeek",
+            "name": "İaşe",
+            "price": 750
+          },
+          {
+            "id": "1738595258151bxrjm9p2g",
+            "name": "Ekip Ulaşım",
+            "price": 2500
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-03T15:07:38.151Z",
+    "updatedAt": "2025-02-03T15:07:38.151Z"
+  },
+  {
+    "id": "1738595292017",
+    "customerName": "Ng Event",
+    "startDate": "1970-01-01T00:00:45.658Z",
+    "endDate": "1970-01-01T00:00:46.022Z",
+    "categories": [
+      {
+        "id": "1738595292017f3u0daiho",
+        "name": "Ekip & Ekipman",
+        "services": [
+          {
+            "id": "17385952920177ijobtdo0",
+            "name": "Prodüktör",
+            "price": 20000
+          },
+          {
+            "id": "17385952920175j9jp3m66",
+            "name": "Kamera & Kameraman",
+            "price": 18000
+          },
+          {
+            "id": "1738595292017d2zzqhcms",
+            "name": "Fotoğraf & Fotoğrafçı",
+            "price": 17500
+          },
+          {
+            "id": "1738595292017j6qv2lyu1",
+            "name": "Drone & Drone Operatörü",
+            "price": 25000
+          },
+          {
+            "id": "173859529201797omy5q3z",
+            "name": "Işık Ekip & Ekipman",
+            "price": 22000
+          },
+          {
+            "id": "173859529201707k6eov10",
+            "name": "Ses Ekip & Ekipman",
+            "price": 10000
+          }
+        ]
+      },
+      {
+        "id": "17385952920178su9mtka1",
+        "name": "Post Prodüksiyon",
+        "services": [
+          {
+            "id": "1738595292017sh9dn6ufm",
+            "name": "Kurgu",
+            "price": 25000
+          },
+          {
+            "id": "17385952920170ya4wegbk",
+            "name": "Alanda Kurgu",
+            "price": 28000
+          },
+          {
+            "id": "1738595292017fc6d9b94w",
+            "name": "Röportaj Videosu (1 dk.)",
+            "price": 18000
+          }
+        ]
+      },
+      {
+        "id": "173859529201775200jg2i",
+        "name": "Prodüksiyon Harcama",
+        "services": [
+          {
+            "id": "1738595292017yki79fjio",
+            "name": "İaşe",
+            "price": 1000
+          },
+          {
+            "id": "1738595292017er5kxwp4j",
+            "name": "Ekip Ulaşım",
+            "price": 3500
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-03T15:08:12.017Z",
+    "updatedAt": "2025-02-03T15:08:12.017Z"
+  },
+  {
+    "id": "1738677051988",
+    "customerName": "ÜLKER",
+    "categories": [
+      {
+        "id": "17386770519882gqgziojx",
+        "name": "Ekip & Ekipman",
+        "services": [
+          {
+            "id": "17386770519881i997jv6i",
+            "name": "Prodüktör",
+            "price": "10000"
+          },
+          {
+            "id": "1738677051988paepi2lio",
+            "name": "Kamera & Kameraman",
+            "price": "9000"
+          },
+          {
+            "id": "17386770519880zwe8357w",
+            "name": "Fotoğraf & Fotoğrafçı",
+            "price": "9000"
+          },
+          {
+            "id": "1738677051988ec2yc2g5x",
+            "name": "Drone & Drone Operatörü",
+            "price": "12996"
+          }
+        ]
+      },
+      {
+        "id": "1738677051988yc0k1bix9",
+        "name": "Post Prodüksiyon",
+        "services": [
+          {
+            "id": "1738677051988gbbhoi6xg",
+            "name": "Kurgu",
+            "price": "15000"
+          },
+          {
+            "id": "1738677051988os2f744h3",
+            "name": "Alanda Kurgu",
+            "price": "15000"
+          }
+        ]
+      },
+      {
+        "id": "1738677051988me71ws4er",
+        "name": "Prodüksiyon Harcama",
+        "services": [
+          {
+            "id": "1738677051988yg3n9h0mq",
+            "name": "İaşe",
+            "price": "750"
+          },
+          {
+            "id": "1738677051988vc90jc52d",
+            "name": "Ekip Ulaşım",
+            "price": "1997"
+          }
+        ]
+      }
+    ],
+    "userId": "1738662246420",
+    "createdAt": "2025-02-04T13:50:51.988Z",
+    "updatedAt": "2025-02-04T13:50:51.988Z"
+  }
+]
