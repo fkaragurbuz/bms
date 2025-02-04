@@ -4,12 +4,24 @@ import path from 'path'
 
 const PROPOSALS_FILE = path.join(process.cwd(), 'data/proposals.json')
 
+interface Topic {
+  title: string
+  services: {
+    name: string
+    quantity: number
+    unit: string
+    unitPrice: number
+    total: number
+  }[]
+  total: number
+}
+
 interface Proposal {
   id: string
   customerName: string
   projectName: string
   date: string
-  topics: any[]
+  topics: Topic[]
   totalAmount: number
   status: string
   createdBy?: string
@@ -61,8 +73,8 @@ export async function GET(request: Request, { params }: { params: { id: string }
     }
 
     return NextResponse.json(proposal)
-  } catch (error) {
-    console.error('Teklif getirme hatası:', error)
+  } catch (err) {
+    console.error('Teklif getirme hatası:', err)
     return NextResponse.json(
       { error: 'Teklif getirilemedi' },
       { status: 500 }
@@ -106,8 +118,8 @@ export async function PUT(request: Request, { params }: { params: { id: string }
     await writeProposals(proposals)
 
     return NextResponse.json(updatedProposal)
-  } catch (error) {
-    console.error('Teklif güncelleme hatası:', error)
+  } catch (err) {
+    console.error('Teklif güncelleme hatası:', err)
     return NextResponse.json(
       { error: 'Teklif güncellenemedi' },
       { status: 500 }
@@ -133,8 +145,8 @@ export async function DELETE(request: Request, { params }: { params: { id: strin
     await writeProposals(proposals)
 
     return new NextResponse(null, { status: 204 })
-  } catch (error) {
-    console.error('Teklif silme hatası:', error)
+  } catch (err) {
+    console.error('Teklif silme hatası:', err)
     return NextResponse.json(
       { error: 'Teklif silinemedi' },
       { status: 500 }

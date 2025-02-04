@@ -14,17 +14,33 @@ interface User {
   role: string;
 }
 
-async function readUsers(): Promise<User[]> {
+// Helper to ensure data file exists
+async function ensureFile() {
   try {
-    const content = await fs.readFile(USERS_FILE, 'utf-8')
-    return JSON.parse(content)
-  } catch (error) {
-    return []
+    await fs.access(USERS_FILE)
+  } catch {
+    await fs.writeFile(USERS_FILE, '[]')
   }
+}
+
+async function readUsers(): Promise<User[]> {
+  await ensureFile()
+  const content = await fs.readFile(USERS_FILE, 'utf-8')
+  return JSON.parse(content)
 }
 
 async function writeUsers(users: User[]) {
   await fs.writeFile(USERS_FILE, JSON.stringify(users, null, 2))
+}
+
+export async function GET() {
+  try {
+    const users = await readUsers()
+    return NextResponse.json(users)
+  } catch (err) {
+    console.error('Kullanıcılar yüklenirken hata:', err)
+    return NextResponse.json({ error: 'Kullanıcılar yüklenemedi' }, { status: 500 })
+  }
 }
 
 export async function POST(request: Request) {
@@ -73,8 +89,8 @@ export async function POST(request: Request) {
     const { password: _, ...userWithoutPassword } = user
     
     return NextResponse.json(userWithoutPassword)
-  } catch (error) {
-    console.error('Login error:', error)
+  } catch (err) {
+    console.error('Login error:', err)
     return NextResponse.json(
       { error: 'An error occurred during login' },
       { status: 500 }

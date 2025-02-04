@@ -87,8 +87,8 @@ export async function POST(request: Request) {
     await writeProposals(proposals)
 
     return NextResponse.json(newProposal)
-  } catch (error) {
-    console.error('Teklif kaydedilirken hata:', error)
+  } catch (err) {
+    console.error('Teklif kaydedilirken hata:', err)
     return NextResponse.json(
       { error: 'Teklif kaydedilemedi' },
       { status: 500 }

@@ -6,8 +6,23 @@ import crypto from 'crypto'
 const USERS_FILE = path.join(process.cwd(), 'data', 'users.json')
 const RESET_TOKENS_FILE = path.join(process.cwd(), 'data', 'reset_tokens.json')
 
+interface User {
+  id: string;
+  email: string;
+  password: string;
+  role: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+interface ResetToken {
+  token: string;
+  email: string;
+  expiresAt: Date;
+}
+
 // Yardımcı fonksiyonlar
-function readJSONFile(filePath: string) {
+function readJSONFile<T>(filePath: string): T[] {
   try {
     const data = fs.readFileSync(filePath, 'utf8')
     return JSON.parse(data)
@@ -17,7 +32,7 @@ function readJSONFile(filePath: string) {
   }
 }
 
-function writeJSONFile(filePath: string, data: any) {
+function writeJSONFile<T>(filePath: string, data: T[]): boolean {
   try {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2))
     return true
@@ -32,8 +47,8 @@ export async function POST(request: Request) {
     const { email } = await request.json()
 
     // Kullanıcıyı kontrol et
-    const users = readJSONFile(USERS_FILE)
-    const user = users.find((u: any) => u.email === email)
+    const users = readJSONFile<User>(USERS_FILE)
+    const user = users.find(u => u.email === email)
     
     if (!user) {
       return NextResponse.json(
@@ -47,10 +62,10 @@ export async function POST(request: Request) {
     const expiresAt = new Date(Date.now() + 24 * 60 * 60 * 1000) // 24 saat geçerli
 
     // Reset token'ları oku veya yeni dosya oluştur
-    let resetTokens = readJSONFile(RESET_TOKENS_FILE)
+    let resetTokens = readJSONFile<ResetToken>(RESET_TOKENS_FILE)
 
     // Varolan token'ı sil
-    resetTokens = resetTokens.filter((t: any) => t.email !== email)
+    resetTokens = resetTokens.filter(t => t.email !== email)
 
     // Yeni token ekle
     resetTokens.push({

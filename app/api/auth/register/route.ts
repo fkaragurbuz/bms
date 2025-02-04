@@ -6,7 +6,16 @@ import { v4 as uuidv4 } from 'uuid'
 
 const USERS_FILE = path.join(process.cwd(), 'data', 'users.json')
 
-async function readUsers() {
+interface User {
+  id: string;
+  email: string;
+  password: string;
+  role: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+async function readUsers(): Promise<User[]> {
   try {
     const content = await fs.readFile(USERS_FILE, 'utf-8')
     return JSON.parse(content)
@@ -15,7 +24,7 @@ async function readUsers() {
   }
 }
 
-async function writeUsers(users: any[]) {
+async function writeUsers(users: User[]) {
   await fs.writeFile(USERS_FILE, JSON.stringify(users, null, 2))
 }
 
