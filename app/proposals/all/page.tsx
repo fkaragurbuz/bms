@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Suspense } from 'react'
 import Header from '@/components/Header'
 import { HiOutlineEye, HiOutlinePencil, HiOutlineTrash, HiOutlineSearch } from 'react-icons/hi'
 import { useRouter, useSearchParams } from 'next/navigation'
@@ -33,7 +33,7 @@ function formatPrice(price: number): string {
   })}`
 }
 
-export default function AllProposalsPage() {
+function ProposalList() {
   const router = useRouter()
   const [searchTerm, setSearchTerm] = useState('')
   const [createdByFilter, setCreatedByFilter] = useState('all')
@@ -363,5 +363,13 @@ export default function AllProposalsPage() {
         </div>
       </main>
     </div>
+  )
+}
+
+export default function Page() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ProposalList />
+    </Suspense>
   )
 } 

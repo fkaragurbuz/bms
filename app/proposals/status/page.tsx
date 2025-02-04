@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Header from '@/components/Header'
 
@@ -15,7 +15,7 @@ interface Proposal {
   createdBy: string
 }
 
-export default function ProposalsByStatusPage() {
+function ProposalList() {
   const [proposals, setProposals] = useState<Proposal[]>([])
   const [loading, setLoading] = useState(true)
   const searchParams = useSearchParams()
@@ -128,5 +128,13 @@ export default function ProposalsByStatusPage() {
         </div>
       </main>
     </div>
+  )
+}
+
+export default function Page() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ProposalList />
+    </Suspense>
   )
 } 
