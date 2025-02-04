@@ -43,5 +43,14 @@
     "role": "USER",
     "createdAt": "2025-02-04T09:44:29.109Z",
     "updatedAt": "2025-02-04T09:44:29.109Z"
+  },
+  {
+    "id": "1738687531650",
+    "email": "test2@test.com",
+    "name": "test2 test",
+    "password": "$2b$10$Z/T5S/plG13rheuJ9XfxkOF8c78P5SP4sFZdzNvkkgdUodjclHIwq",
+    "role": "USER",
+    "createdAt": "2025-02-04T16:45:31.650Z",
+    "updatedAt": "2025-02-04T16:45:31.650Z"
   }
 ]

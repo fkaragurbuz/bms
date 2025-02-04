@@ -28,27 +28,11 @@ interface Employee {
   documents: Document[]
 }
 
-interface Assignment {
-  id: number
-  employeeId: number
-  items: Array<{
-    id: number
-    name: string
-    serialNo: string
-    quantity: number
-  }>
-  assignmentDate: string
-  endDate?: string
-  status?: 'Aktif' | 'Sonlandırıldı'
-  createdAt: string
-}
-
 export default function EditEmployeeForm({ id }: { id: string }) {
   const router = useRouter()
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [documents, setDocuments] = useState<Document[]>([])
-  const [assignments, setAssignments] = useState<Assignment[]>([])
 
   const [formData, setFormData] = useState({
     tckn: '',
@@ -65,13 +49,10 @@ export default function EditEmployeeForm({ id }: { id: string }) {
   })
 
   useEffect(() => {
-    // Çalışan bilgilerini ve zimmetleri getir
+    // Çalışan bilgilerini getir
     const fetchData = async () => {
       try {
-        const [employeeResponse, assignmentsResponse] = await Promise.all([
-          fetch(`/api/employees/${id}`),
-          fetch(`/api/employees/${id}/assignments`)
-        ])
+        const employeeResponse = await fetch(`/api/employees/${id}`)
 
         if (!employeeResponse.ok) throw new Error('Çalışan bilgileri alınamadı')
         
@@ -90,11 +71,6 @@ export default function EditEmployeeForm({ id }: { id: string }) {
           status: employee.status
         })
         setDocuments(employee.documents)
-
-        if (assignmentsResponse.ok) {
-          const assignmentsData = await assignmentsResponse.json()
-          setAssignments(assignmentsData)
-        }
       } catch (err: any) {
         setError(err.message)
       }
@@ -445,81 +421,6 @@ export default function EditEmployeeForm({ id }: { id: string }) {
                     ))}
                   </div>
                 )}
-              </div>
-
-              {/* Zimmet Listesi */}
-              <div className="mt-8">
-                <h2 className="text-xl font-bold mb-4">Zimmet Listesi</h2>
-                <div className="overflow-x-auto">
-                  <table className="min-w-full divide-y divide-gray-200">
-                    <thead className="bg-gray-50">
-                      <tr>
-                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                          Zimmet Tarihi
-                        </th>
-                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                          Durum
-                        </th>
-                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                          Ürünler
-                        </th>
-                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                          İşlemler
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody className="bg-white divide-y divide-gray-200">
-                      {assignments.map((assignment) => (
-                        <tr key={assignment.id} className={assignment.status === 'Sonlandırıldı' ? 'bg-gray-50' : ''}>
-                          <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                            {new Date(assignment.assignmentDate).toLocaleDateString('tr-TR')}
-                            {assignment.endDate && (
-                              <span className="block text-xs text-gray-400">
-                                Sonlandırma: {new Date(assignment.endDate).toLocaleDateString('tr-TR')}
-                              </span>
-                            )}
-                          </td>
-                          <td className="px-6 py-4 whitespace-nowrap text-sm">
-                            <span
-                              className={`inline-flex px-2 py-1 rounded-full text-xs font-semibold ${
-                                assignment.status === 'Sonlandırıldı'
-                                  ? 'bg-gray-100 text-gray-800'
-                                  : 'bg-green-100 text-green-800'
-                              }`}
-                            >
-                              {assignment.status || 'Aktif'}
-                            </span>
-                          </td>
-                          <td className="px-6 py-4 text-sm text-gray-500">
-                            <ul className="list-disc list-inside">
-                              {assignment.items.map((item, index) => (
-                                <li key={index}>
-                                  {item.name} - {item.serialNo} ({item.quantity} adet)
-                                </li>
-                              ))}
-                            </ul>
-                          </td>
-                          <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                            <button
-                              type="button"
-                              onClick={() => window.open(`/inventory/assignment/${assignment.id}`, '_blank')}
-                              className="text-blue-600 hover:text-blue-800"
-                            >
-                              Tutanağı Görüntüle
-                            </button>
-                          </td>
-                        </tr>
-                      ))}
-                      {assignments.length === 0 && (
-                        <tr>
-                          <td colSpan={4} className="px-6 py-4 text-sm text-gray-500 text-center">
-                            Zimmet bulunamadı
-                          </td>
-                        </tr>
-                      )}
-                    </tbody>
-                  </table>
-                </div>
               </div>
 
               <div className="flex justify-end space-x-4 mt-6">

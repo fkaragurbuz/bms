@@ -50,7 +50,7 @@ export default function AddProposalPage() {
   const [showTerms, setShowTerms] = useState(false)
   const [termsText, setTermsText] = useState(`Teklif Şartları:
 1.  Teklifte yer alan tüm fiyatlar KDV hariç Türk Lirası olarak hazırlanmıştır.
-2.  Teklif, geçerlilik süresi sonuna kadar geçerlidir.
+2.  Teklif, teklif tarihinden itibaren 30 (Otuz) gün geçerlidir.
 3.  Ödeme, işin bitimini takip eden 30 (Otuz) takvim günü içerisinde toplam tutarın tamamı olarak gerçekleştirilecektir.`)
   const [selectedCategories, setSelectedCategories] = useState<{[topicId: string]: string}>({})
   const [newCategoryNames, setNewCategoryNames] = useState<{[topicId: string]: string}>({})
