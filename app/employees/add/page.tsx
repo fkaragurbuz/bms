@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { Container, Form, Button, ListGroup } from 'react-bootstrap'
 import { format, subYears } from 'date-fns'
@@ -21,6 +21,7 @@ export default function AddEmployeePage() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [documents, setDocuments] = useState<Document[]>([])
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -59,6 +60,7 @@ export default function AddEmployeePage() {
         documents: documents
       }
 
+      // 1. Önce çalışanı kaydet
       const response = await fetch('/api/employees', {
         method: 'POST',
         headers: {
@@ -72,70 +74,49 @@ export default function AddEmployeePage() {
         throw new Error(errorData.error || 'Çalışan eklenirken bir hata oluştu')
       }
 
+      const { id: employeeId } = await response.json()
+
+      // 2. Dosyalar varsa yükle
+      if (fileInputRef.current?.files?.length) {
+        const fileFormData = new FormData()
+        Array.from(fileInputRef.current.files).forEach(file => {
+          fileFormData.append('files', file)
+        })
+
+        const uploadResponse = await fetch(`/api/employees/${employeeId}/files`, {
+          method: 'POST',
+          body: fileFormData,
+        })
+
+        if (!uploadResponse.ok) {
+          throw new Error('Dosya yükleme hatası')
+        }
+      }
+
       router.push('/employees')
     } catch (error: any) {
-      console.error('Çalışan ekleme hatası:', error)
-      setError(error.message || 'Çalışan eklenirken bir hata oluştu')
+      console.error('İşlem hatası:', error)
+      setError(error.message || 'İşlem sırasında bir hata oluştu')
       setLoading(false)
     }
   }
 
-  const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+  // Dosya seçildiğinde önizleme için
+  const handleFileSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (!e.target.files?.length) return
 
-    const formData = new FormData()
-    Array.from(e.target.files).forEach(file => {
-      formData.append('files', file)
-    })
+    const newDocs: Document[] = Array.from(e.target.files).map(file => ({
+      id: Date.now().toString() + Math.random().toString(36).substr(2, 9),
+      name: file.name,
+      path: file.name,
+      uploadDate: new Date().toISOString()
+    }))
 
-    try {
-      // Dosyaları yükle
-      const uploadResponse = await fetch(`/api/employees/files`, {
-        method: 'POST',
-        body: formData,
-      })
-
-      if (!uploadResponse.ok) {
-        throw new Error('Dosya yükleme hatası')
-      }
-
-      const result = await uploadResponse.json()
-      
-      const newDocs: Document[] = result.files.map((fileName: string) => ({
-        id: Date.now().toString() + Math.random().toString(36).substr(2, 9),
-        name: fileName,
-        path: fileName,
-        uploadDate: new Date().toISOString()
-      }))
-
-      setDocuments(prev => [...prev, ...newDocs])
-      
-      // Input'u temizle
-      e.target.value = ''
-    } catch (error) {
-      console.error('Dosya yükleme hatası:', error)
-      alert('Dosya yüklenirken bir hata oluştu')
-    }
+    setDocuments(prev => [...prev, ...newDocs])
   }
 
-  const handleDeleteDocument = async (docId: string) => {
-    const doc = documents.find(d => d.id === docId)
-    if (!doc) return
-
-    try {
-      const response = await fetch(`/api/employees/files/${doc.path}`, {
-        method: 'DELETE',
-      })
-
-      if (!response.ok) {
-        throw new Error('Dosya silinemedi')
-      }
-
-      setDocuments(prev => prev.filter(d => d.id !== docId))
-    } catch (error) {
-      console.error('Dosya silme hatası:', error)
-      alert('Dosya silinirken bir hata oluştu')
-    }
+  const handleDeleteDocument = (docId: string) => {
+    setDocuments(prev => prev.filter(d => d.id !== docId))
   }
 
   return (
@@ -236,8 +217,9 @@ export default function AddEmployeePage() {
             <Form.Label>Belgeler</Form.Label>
             <div className="d-flex gap-2 align-items-center">
               <Form.Control
+                ref={fileInputRef}
                 type="file"
-                onChange={handleFileUpload}
+                onChange={handleFileSelect}
                 multiple
                 accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"
                 className="flex-grow-1"

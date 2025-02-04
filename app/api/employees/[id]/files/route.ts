@@ -2,13 +2,17 @@ import { NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
 
-const UPLOAD_DIR = path.join(process.cwd(), 'data', 'files', 'employees');
+const BASE_UPLOAD_DIR = path.join(process.cwd(), 'data', 'files', 'employees');
 
-// Dizini oluştur
-try {
-  await fs.mkdir(UPLOAD_DIR, { recursive: true });
-} catch (error) {
-  console.error('Error creating directory:', error);
+// Çalışan klasörünü oluştur
+async function ensureEmployeeDir(employeeId: string): Promise<string> {
+  const employeeDir = path.join(BASE_UPLOAD_DIR, employeeId);
+  try {
+    await fs.access(employeeDir);
+  } catch {
+    await fs.mkdir(employeeDir, { recursive: true });
+  }
+  return employeeDir;
 }
 
 export async function POST(
@@ -16,37 +20,42 @@ export async function POST(
   { params }: { params: { id: string } }
 ) {
   try {
+    const id = await params.id;
+    const employeeDir = await ensureEmployeeDir(id);
     const formData = await request.formData();
     const files = formData.getAll('files');
-    console.log('Number of files:', files.length);
+    console.log('Yüklenecek dosya sayısı:', files.length);
 
     const savedFiles = [];
 
     for (const fileEntry of files) {
       try {
         if (!(fileEntry instanceof Blob)) {
-          console.error('Invalid file entry:', fileEntry);
+          console.error('Geçersiz dosya:', fileEntry);
           continue;
         }
 
-        const fileName = (fileEntry as any).name;
-        const filePath = path.join(UPLOAD_DIR, fileName);
+        const originalName = (fileEntry as any).name;
+        const timestamp = Date.now();
+        const fileName = `${timestamp}-${originalName}`;
+        const filePath = path.join(employeeDir, fileName);
         
         const arrayBuffer = await fileEntry.arrayBuffer();
         const buffer = Buffer.from(arrayBuffer);
         
-        console.log('Saving file:', {
+        console.log('Dosya kaydediliyor:', {
+          originalName,
           fileName,
           filePath,
           size: buffer.length
         });
 
         await fs.writeFile(filePath, buffer);
-        console.log('File saved successfully:', filePath);
+        console.log('Dosya başarıyla kaydedildi:', filePath);
 
         savedFiles.push(fileName);
       } catch (fileError) {
-        console.error('Error processing file:', fileError);
+        console.error('Dosya işleme hatası:', fileError);
       }
     }
 
@@ -57,10 +66,10 @@ export async function POST(
       );
     }
 
-    console.log('Successfully uploaded files:', savedFiles);
+    console.log('Başarıyla yüklenen dosyalar:', savedFiles);
     return NextResponse.json({ files: savedFiles });
   } catch (error) {
-    console.error('File upload error:', error);
+    console.error('Dosya yükleme hatası:', error);
     return NextResponse.json(
       { error: 'Dosya yüklenemedi' },
       { status: 500 }

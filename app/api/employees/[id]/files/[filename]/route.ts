@@ -2,16 +2,44 @@ import { NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
 
-const UPLOAD_DIR = path.join(process.cwd(), 'data', 'files', 'employees');
+const BASE_UPLOAD_DIR = path.join(process.cwd(), 'data', 'files', 'employees');
+
+// Çalışan klasörünü oluştur
+async function ensureEmployeeDir(employeeId: string): Promise<string> {
+  const employeeDir = path.join(BASE_UPLOAD_DIR, employeeId);
+  try {
+    await fs.access(employeeDir);
+  } catch {
+    await fs.mkdir(employeeDir, { recursive: true });
+  }
+  return employeeDir;
+}
 
 export async function GET(
   request: Request,
   { params }: { params: { id: string; filename: string } }
 ) {
-  const filename = decodeURIComponent(params.filename);
+  const id = await params.id;
+  const filename = decodeURIComponent(await params.filename);
   
   try {
-    const filePath = path.join(UPLOAD_DIR, filename);
+    const employeeDir = await ensureEmployeeDir(id);
+    
+    // Dizindeki dosyaları oku
+    const files = await fs.readdir(employeeDir);
+    
+    // Timestamp'li dosya adını bul
+    const timestampedFilename = files.find(file => file.endsWith(filename));
+    
+    if (!timestampedFilename) {
+      console.error(`Dosya bulunamadı: ${filename}`);
+      return NextResponse.json(
+        { error: 'Dosya bulunamadı' },
+        { status: 404 }
+      );
+    }
+
+    const filePath = path.join(employeeDir, timestampedFilename);
     console.log('Dosya okunuyor:', filePath);
 
     try {
@@ -47,10 +75,27 @@ export async function DELETE(
   request: Request,
   { params }: { params: { id: string; filename: string } }
 ) {
-  const filename = decodeURIComponent(params.filename);
+  const id = await params.id;
+  const filename = decodeURIComponent(await params.filename);
   
   try {
-    const filePath = path.join(UPLOAD_DIR, filename);
+    const employeeDir = await ensureEmployeeDir(id);
+    
+    // Dizindeki dosyaları oku
+    const files = await fs.readdir(employeeDir);
+    
+    // Timestamp'li dosya adını bul
+    const timestampedFilename = files.find(file => file.endsWith(filename));
+    
+    if (!timestampedFilename) {
+      console.error(`Dosya bulunamadı: ${filename}`);
+      return NextResponse.json(
+        { error: 'Dosya bulunamadı' },
+        { status: 404 }
+      );
+    }
+
+    const filePath = path.join(employeeDir, timestampedFilename);
     console.log('Dosya siliniyor:', filePath);
 
     try {

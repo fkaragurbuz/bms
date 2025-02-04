@@ -1,31 +1,19 @@
 [
   {
-    "id": "1738610922393",
-    "fullName": "asdasd",
-    "tcNo": "64753212543",
-    "birthDate": "1995-12-11",
-    "sgkNo": "yterwtery454",
-    "startDate": "2025-02-03",
+    "id": "1738699500669",
+    "fullName": "fdgsfh",
+    "tcNo": "43524635746",
+    "birthDate": "1956-12-11",
+    "sgkNo": "65768564753645",
+    "startDate": "2025-02-04",
     "isActive": true,
-    "phone": "05423345678",
+    "phone": "05334567809",
     "documents": [
       {
-        "id": "1738610939774mnw4o06k9",
-        "name": "Not-deneme-03.02.20215.docx",
-        "path": "Not-deneme-03.02.20215.docx",
-        "uploadDate": "2025-02-03T19:28:59.774Z"
-      },
-      {
-        "id": "1738697428931g162n1w7u",
-        "name": "HEPSİBURADA-dsadasd.pdf",
-        "path": "HEPSİBURADA-dsadasd.pdf",
-        "uploadDate": "2025-02-04T19:30:28.931Z"
-      },
-      {
-        "id": "17386977177398bbpzu38d",
-        "name": "HEPSİBURADA-Sevgililer Günü Akasya AVM Çekimi (8 Şubat).pdf",
-        "path": "HEPSİBURADA-Sevgililer Günü Akasya AVM Çekimi (8 Şubat).pdf",
-        "uploadDate": "2025-02-04T19:35:17.739Z"
+        "id": "1738699488594kq1wq8kiw",
+        "name": "fizy mutabakat.pdf",
+        "path": "fizy mutabakat.pdf",
+        "uploadDate": "2025-02-04T20:04:48.594Z"
       }
     ],
     "endDate": null
